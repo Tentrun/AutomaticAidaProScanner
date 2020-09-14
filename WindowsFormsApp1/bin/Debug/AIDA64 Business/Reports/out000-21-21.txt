@@ -1,0 +1,1418 @@
+--------[ AIDA64 Business ]---------------------------------------------------------------------------------------------
+
+    Version                                           AIDA64 v6.25.5400/RU
+    Benchmark Module                                  4.5.816.8-x64
+    Homepage                                          http://www.aida64.com/
+    Report Type                                       Command-line: /CUSTOM format.rpf
+    Computer                                          SPESHIALIST_IKT
+    Generator                                         KononovAV
+    Operating System                                  Microsoft Windows 10 Pro 10.0.18363.959 (Win10 19H2 [1909] November 2019 Update)
+    Date                                              2020-08-17
+    Time                                              17:30
+
+
+--------[ Summary ]-----------------------------------------------------------------------------------------------------
+
+    Computer:
+      Computer Type                                     Компьютер с ACPI на базе x64
+      Operating System                                  Microsoft Windows 10 Pro
+      OS Service Pack                                   -
+      Internet Explorer                                 11.959.18362.0
+      Edge                                              44.18362.449.0
+      DirectX                                           DirectX 12.0
+      Computer Name                                     SPESHIALIST_IKT
+      User Name                                         KononovAV
+      Logon Domain                                      IDTE
+      Date / Time                                       2020-08-17 / 17:30
+
+    Motherboard:
+      CPU Type                                          QuadCore Intel Core i3-8100, 3600 MHz (36 x 100)
+      Motherboard Name                                  Asus Prime H310M-R R2.0  (1 PCI-E x1, 1 PCI-E x16, 1 M.2, 2 DDR4 DIMM, Audio, Video, Gigabit LAN)
+      Motherboard Chipset                               Intel Kaby Point H310C, Intel Coffee Lake-S
+      System Memory                                     8071 MB  (DDR4 SDRAM)
+      BIOS Type                                         AMI (02/17/2020)
+      Communication Port                                Последовательный порт (COM1)
+      Communication Port                                Порт принтера (LPT1)
+
+    Display:
+      Video Adapter                                     Intel(R) UHD Graphics 630  (1 GB)
+      Video Adapter                                     Intel(R) UHD Graphics 630  (1 GB)
+      3D Accelerator                                    Intel UHD Graphics 630
+      Monitor                                           AOC 2480W1  [24" LCD]  (AMKK89A000125)
+
+    Multimedia:
+      Audio Adapter                                     Intel Kaby Lake HDMI @ Intel Kaby Point PCH - High Definition Audio Controller (Audio, Voice, Speech)
+      Audio Adapter                                     Realtek ALC887 @ Intel Kaby Point PCH - High Definition Audio Controller (Audio, Voice, Speech)
+
+    Storage:
+      IDE Controller                                    Intel(R) 300 Series Chipset Family SATA AHCI Controller
+      Storage Controller                                Контроллер дискового пространства (Майкрософт)
+      Disk Drive                                        ST1000DM010-2EP102  (1 TB, 7200 RPM, SATA-III)
+      Optical Drive                                     ASUS DRW-24D5MT  (DVD+R9:8x, DVD-R9:8x, DVD+RW:24x/8x, DVD-RW:24x/6x, DVD-RAM:5x, DVD-ROM:16x, CD:48x/24x/48x DVD+RW/DVD-RW/DVD-RAM)
+      SMART Hard Disks Status                           OK
+
+    Partitions:
+      C: (NTFS)                                         102755 MB (50980 MB free)
+      D: (NTFS)                                         850118 MB (838319 MB free)
+      Total Size                                        930.5 GB (868.5 GB free)
+
+    Input:
+      Keyboard                                          Клавиатура HID
+      Mouse                                             HID-совместимая мышь
+
+    Network:
+      Primary IP Address                                192.168.140.146
+      Primary MAC Address                               A8-5E-45-6D-08-72
+      Network Adapter                                   Realtek PCIe GbE Family Controller  (192.168.140.146)
+
+    Peripherals:
+      Printer                                           \\vPDC\Kyocera ECOSYS M3145idn (Отдел ТР)
+      Printer                                           \\vPDC\Kyocera ECOSYS P4040dn (Отдел админов)
+      Printer                                           OneNote (Desktop)
+      Printer                                           OneNote for Windows 10
+      USB3 Controller                                   Intel Kaby Point PCH - USB 3.1 xHCI Host Controller
+      USB Device                                        USB-устройство ввода
+      USB Device                                        USB-устройство ввода
+      USB Device                                        USB-устройство ввода
+      USB Device                                        Составное USB устройство
+
+    DMI:
+      DMI BIOS Vendor                                   American Megatrends Inc.
+      DMI BIOS Version                                  1202
+      DMI System Manufacturer                           System manufacturer
+      DMI System Product                                System Product Name
+      DMI System Version                                System Version
+      DMI System Serial Number                          System Serial Number
+      DMI System UUID                                   BEDCC747-CF2F9CF3-0941A85E-456D0872
+      DMI Motherboard Manufacturer                      ASUSTeK COMPUTER INC.
+      DMI Motherboard Product                           PRIME H310M-R R2.0
+      DMI Motherboard Version                           Rev X.0x
+      DMI Motherboard Serial Number                     191161605900104
+      DMI Chassis Manufacturer                          Default string
+      DMI Chassis Version                               Default string
+      DMI Chassis Serial Number                         Default string
+      DMI Chassis Asset Tag                             Default string
+      DMI Chassis Type                                  Desktop Case
+
+
+--------[ Computer Name ]-----------------------------------------------------------------------------------------------
+
+    Computer Comment          Logical   
+    NetBIOS Name              Logical   SPESHIALIST_IKT
+    DNS Host Name             Logical   SPESHIALIST_IKT
+    DNS Domain Name           Logical   idte.mos
+    Fully Qualified DNS Name  Logical   SPESHIALIST_IKT.idte.mos
+    NetBIOS Name              Physical  SPESHIALIST_IKT
+    DNS Host Name             Physical  SPESHIALIST_IKT
+    DNS Domain Name           Physical  idte.mos
+    Fully Qualified DNS Name  Physical  SPESHIALIST_IKT.idte.mos
+
+
+--------[ CPU ]---------------------------------------------------------------------------------------------------------
+
+    CPU Properties:
+      CPU Type                                          QuadCore Intel Core i3-8100, 3600 MHz (36 x 100)
+      CPU Alias                                         Coffee Lake-S
+      CPU Stepping                                      B0
+      Instruction Set                                   x86, x86-64, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, FMA, AES
+      Original Clock                                    3600 MHz
+      Min / Max CPU Multiplier                          8x / 36x
+      Engineering Sample                                No
+      L1 Code Cache                                     32 KB per core
+      L1 Data Cache                                     32 KB per core
+      L2 Cache                                          256 KB per core  (On-Die, ECC, Full-Speed)
+      L3 Cache                                          6 MB  (On-Die, ECC, Full-Speed)
+
+    CPU Physical Info:
+      Package Type                                      1151 Contact FC-LGA
+      Package Size                                      37.5 mm x 37.5 mm
+      Process Technology                                13MiM, 14 nm, CMOS, Cu, High-K + Metal Gate
+      Die Size                                          151 mm2
+      Typical Power                                     65 W
+
+    CPU Manufacturer:
+      Company Name                                      Intel Corporation
+      Product Information                               https://ark.intel.com/content/www/us/en/ark/search.html?q=Intel%20Core%20i3-8100
+      Driver Update                                     http://www.aida64.com/goto/?p=drvupdates
+
+    Multi CPU:
+      Motherboard ID                                    A M I ALASKA
+      CPU #1                                            Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz, 3600 MHz
+      CPU #2                                            Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz, 3600 MHz
+      CPU #3                                            Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz, 3600 MHz
+      CPU #4                                            Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz, 3600 MHz
+
+    CPU Utilization:
+      CPU #1 / Core #1                                  0%
+      CPU #1 / Core #2                                  0%
+      CPU #1 / Core #3                                  0%
+      CPU #1 / Core #4                                  33%
+
+
+--------[ Motherboard ]-------------------------------------------------------------------------------------------------
+
+    Motherboard Properties:
+      Motherboard ID                                    63-0100-000001-00101111-090216-Chipset$0AAAA000_BIOS DATE: 02/17/20 14:58:52 VER: 05.0000C
+      Motherboard Name                                  Asus Prime H310M-R R2.0
+
+    Front Side Bus Properties:
+      Bus Type                                          BCLK
+      Real Clock                                        100 MHz
+      Effective Clock                                   100 MHz
+
+    Chipset Bus Properties:
+      Bus Type                                          Intel Direct Media Interface v3.0
+
+    Motherboard Physical Info:
+      CPU Sockets/Slots                                 1 LGA1151 v2
+      Expansion Slots                                   1 PCI-E x1, 1 PCI-E x16, 1 M.2
+      RAM Slots                                         2 DDR4 DIMM
+      Integrated Devices                                Audio, Video, Gigabit LAN
+      Form Factor                                       Micro ATX
+      Motherboard Size                                  180 mm x 210 mm
+      Motherboard Chipset                               H310
+
+    Motherboard Manufacturer:
+      Company Name                                      ASUSTeK Computer Inc.
+      Product Information                               https://www.asus.com/Motherboards
+      BIOS Download                                     https://www.asus.com/support
+      Driver Update                                     http://www.aida64.com/goto/?p=drvupdates
+      BIOS Upgrades                                     http://www.aida64.com/goto/?p=biosupdates
+
+
+--------[ Memory ]------------------------------------------------------------------------------------------------------
+
+    Physical Memory:
+      Total                                             8071 MB
+      Used                                              4915 MB
+      Free                                              3156 MB
+      Utilization                                       61 %
+
+    Virtual Memory:
+      Total                                             9863 MB
+      Used                                              5487 MB
+      Free                                              4376 MB
+      Utilization                                       56 %
+
+    Paging File:
+      Paging File                                       D:\pagefile.sys
+      Current Size                                      1792 MB
+      Current / Peak Usage                              18 MB / 24 MB
+      Utilization                                       1 %
+
+    Physical Address Extension (PAE):
+      Supported by Operating System                     Yes
+      Supported by CPU                                  Yes
+      Active                                            Yes
+
+
+--------[ Operating System ]--------------------------------------------------------------------------------------------
+
+    Operating System Properties:
+      OS Name                                           Microsoft Windows 10 Pro
+      OS Language                                       Русский (Россия)
+      OS Installer Language                             Русский (Россия)
+      OS Kernel Type                                    Multiprocessor Free (64-bit)
+      OS Version                                        10.0.18363.959 (Win10 19H2 [1909] November 2019 Update)
+      OS Service Pack                                   -
+      OS Installation Date                              22.04.2020
+      OS Root                                           C:\Windows
+
+    License Information:
+      Registered Owner                                  User
+      Registered Organization                           
+      Product ID                                        00330-71423-27652-AAOEM
+      Product Key                                       3NCHK-HDR3M-GQHCT-BW37B-XBT6R
+      Product Activation (WPA)                          Not Required
+
+    Current Session:
+      Computer Name                                     SPESHIALIST_IKT
+      User Name                                         KononovAV
+      Logon Domain                                      IDTE
+      UpTime                                            2404 sec (0 days, 0 hours, 40 min, 4 sec)
+
+    Components Version:
+      Common Controls                                   6.16
+      Windows Mail                                      -
+      Windows Media Player                              12.0.18362.1014 (WinBuild.160101.0800)
+      Windows Messenger                                 -
+      MSN Messenger                                     -
+      Internet Information Services (IIS)               -
+      .NET Framework                                    4.8.3752.0 built by: NET48REL1
+      Novell Client                                     -
+      DirectX                                           DirectX 12.0
+      OpenGL                                            10.0.18362.387 (WinBuild.160101.0800)
+      ASPI                                              -
+
+    Operating System Features:
+      Debug Version                                     No
+      DBCS Version                                      No
+      Domain Controller                                 No
+      Security Present                                  No
+      Network Present                                   Yes
+      Remote Session                                    No
+      Safe Mode                                         No
+      Slow Processor                                    No
+      Terminal Services                                 Yes
+
+
+--------[ Services ]----------------------------------------------------------------------------------------------------
+
+    AarSvc_7281b                       Agent Activation Runtime_7281b                                          svchost.exe           10.0.18362.1     Unknown              Stopped               
+    AdobeARMservice                    Adobe Acrobat Update Service                                            armsvc.exe            1.824.39.564     Own Process          Running               LocalSystem
+    AJRouter                           Служба маршрутизатора AllJoyn                                           svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    ALG                                Служба шлюза уровня приложения                                          alg.exe               10.0.18362.1     Own Process          Stopped               NT AUTHORITY\LocalService
+    AppIDSvc                           Удостоверение приложения                                                svchost.exe           10.0.18362.1     Share Process        Stopped               NT Authority\LocalService
+    Appinfo                            Сведения о приложении                                                   svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    AppMgmt                            Управление приложениями                                                 svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    AppReadiness                       Готовность приложений                                                   svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    AppVClient                         Microsoft App-V Client                                                  AppVClient.exe        10.0.18362.628   Own Process          Stopped               LocalSystem
+    AppXSvc                            Служба развертывания AppX (AppXSVC)                                     svchost.exe           10.0.18362.1     Unknown              Stopped               LocalSystem
+    AssignedAccessManagerSvc           Служба AssignedAccessManager                                            svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    AudioEndpointBuilder               Средство построения конечных точек Windows Audio                        svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    Audiosrv                           Windows Audio                                                           svchost.exe           10.0.18362.1     Own Process          Running               NT AUTHORITY\LocalService
+    autotimesvc                        Время в сети мобильной связи                                            svchost.exe           10.0.18362.1     Own Process          Stopped               NT AUTHORITY\LocalService
+    AVP                                Kaspersky Endpoint Security Service                                     avp.exe               11.4.0.233       Own Process          Running               LocalSystem
+    avpsus                             Kaspersky Seamless Update Service                                       avpsus.exe            11.4.0.233       Own Process          Running               LocalSystem
+    AxInstSV                           Установщик ActiveX (AxInstSV)                                           svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    BcastDVRUserService_7281b          Пользовательская служба DVR для игр и трансляции_7281b                  svchost.exe           10.0.18362.1     Unknown              Stopped               
+    BDESVC                             Служба шифрования дисков BitLocker                                      svchost.exe           10.0.18362.1     Unknown              Stopped               localSystem
+    BFE                                Служба базовой фильтрации                                               svchost.exe           10.0.18362.1     Share Process        Running               NT AUTHORITY\LocalService
+    BITS                               Фоновая интеллектуальная служба передачи (BITS)                         svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    BluetoothUserService_7281b         Служба поддержки пользователей Bluetooth_7281b                          svchost.exe           10.0.18362.1     Unknown              Stopped               
+    BrokerInfrastructure               Служба инфраструктуры фоновых задач                                     svchost.exe           10.0.18362.1     Share Process        Running               LocalSystem
+    BTAGService                        Служба звукового шлюза Bluetooth                                        svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    BthAvctpSvc                        Служба AVCTP                                                            svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    bthserv                            Служба поддержки Bluetooth                                              svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    camsvc                             Служба диспетчера доступа к возможностям                                svchost.exe           10.0.18362.1     Unknown              Stopped               LocalSystem
+    CaptureService_7281b               CaptureService_7281b                                                    svchost.exe           10.0.18362.1     Unknown              Stopped               
+    cbdhsvc_7281b                      Пользовательская служба буфера обмена_7281b                             svchost.exe           10.0.18362.1     Unknown              Running               
+    CDPSvc                             Служба платформы подключенных устройств                                 svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\LocalService
+    CDPUserSvc_7281b                   Служба пользователя платформы подключенных устройств_7281b              svchost.exe           10.0.18362.1     Unknown              Running               
+    CertPropSvc                        Распространение сертификата                                             svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    ClickToRunSvc                      Служба Microsoft Office "Нажми и работай"                               OfficeClickToRun.exe  16.0.13029.20342  Own Process          Running               LocalSystem
+    ClipSVC                            Служба лицензий клиента (ClipSVC)                                       svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    COMSysApp                          Системное приложение COM+                                               dllhost.exe           10.0.18362.1     Own Process          Stopped               LocalSystem
+    ConsentUxUserSvc_7281b             ConsentUX_7281b                                                         svchost.exe           10.0.18362.1     Unknown              Stopped               
+    CoreMessagingRegistrar             CoreMessaging                                                           svchost.exe           10.0.18362.1     Share Process        Running               NT AUTHORITY\LocalService
+    cphs                               Intel(R) Content Protection HECI Service                                IntelCpHeciSvc.exe    9.1.1.1117       Own Process          Running               LocalSystem
+    cplspcon                           Intel(R) Content Protection HDCP Service                                IntelCpHDCPSvc.exe    25.20.100.7262   Own Process          Running               LocalSystem
+    CredentialEnrollmentManagerUserSvc_7281b  CredentialEnrollmentManagerUserSvc_7281b                                CredentialEnrollmentManager.exe  10.0.18362.959   Unknown              Stopped               
+    CryptSvc                           Службы криптографии                                                     svchost.exe           10.0.18362.1     Unknown              Running               NT Authority\NetworkService
+    CscService                         Автономные файлы                                                        svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    DcomLaunch                         Модуль запуска процессов DCOM-сервера                                   svchost.exe           10.0.18362.1     Share Process        Running               LocalSystem
+    defragsvc                          Оптимизация дисков                                                      svchost.exe           10.0.18362.1     Own Process          Stopped               localSystem
+    DeviceAssociationBrokerSvc_7281b   DeviceAssociationBroker_7281b                                           svchost.exe           10.0.18362.1     Unknown              Stopped               
+    DeviceAssociationService           Служба сопоставления устройств                                          svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    DeviceInstall                      Служба установки устройств                                              svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    DevicePickerUserSvc_7281b          DevicePicker_7281b                                                      svchost.exe           10.0.18362.1     Unknown              Stopped               
+    DevicesFlowUserSvc_7281b           DevicesFlow_7281b                                                       svchost.exe           10.0.18362.1     Unknown              Stopped               
+    DevQueryBroker                     Брокер фонового обнаружения DevQuery                                    svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    Dhcp                               DHCP-клиент                                                             svchost.exe           10.0.18362.1     Unknown              Running               NT Authority\LocalService
+    diagnosticshub.standardcollector.service  Стандартная служба сборщика центра диагностики Microsoft (R)            DiagnosticsHub.StandardCollector.Service.exe  11.0.18362.959   Own Process          Stopped               LocalSystem
+    diagsvc                            Diagnostic Execution Service                                            svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    DiagTrack                          Функциональные возможности для подключенных пользователей и телеметрия  svchost.exe           10.0.18362.1     Own Process          Running               LocalSystem
+    DispBrokerDesktopSvc               Служба политики отображения                                             svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\LocalService
+    DisplayEnhancementService          Служба улучшения отображения                                            svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    DmEnrollmentSvc                    Служба регистрации управления устройством                               svchost.exe           10.0.18362.1     Own Process          Stopped               LocalSystem
+    dmwappushservice                   Служба маршрутизации push-сообщений на основе протокола WAP (Wireless Application Protocol) для управления устройствами  svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    Dnscache                           DNS-клиент                                                              svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\NetworkService
+    DoSvc                              Оптимизация доставки                                                    svchost.exe           10.0.18362.1     Unknown              Running               NT Authority\NetworkService
+    dot3svc                            Проводная автонастройка                                                 svchost.exe           10.0.18362.1     Share Process        Stopped               localSystem
+    DPS                                Служба политики диагностики                                             svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\LocalService
+    DsmSvc                             Диспетчер настройки устройств                                           svchost.exe           10.0.18362.1     Unknown              Stopped               LocalSystem
+    DsSvc                              Служба совместного доступа к данным                                     svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    DusmSvc                            Использование данных                                                    svchost.exe           10.0.18362.1     Own Process          Running               NT Authority\LocalService
+    Eaphost                            Расширяемый протокол проверки подлинности (EAP)                         svchost.exe           10.0.18362.1     Share Process        Stopped               localSystem
+    EFS                                Шифрованная файловая система (EFS)                                      lsass.exe             10.0.18362.1     Share Process        Stopped               LocalSystem
+    embeddedmode                       Встроенный режим                                                        svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    EntAppSvc                          Служба управления корпоративными приложениями                           svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    EventLog                           Журнал событий Windows                                                  svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\LocalService
+    EventSystem                        Система событий COM+                                                    svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\LocalService
+    Fax                                Факс                                                                    fxssvc.exe            10.0.18362.1     Own Process          Stopped               NT AUTHORITY\NetworkService
+    fdPHost                            Хост поставщика функции обнаружения                                     svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    FDResPub                           Публикация ресурсов обнаружения функции                                 svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    fhsvc                              Служба истории файлов                                                   svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    FontCache                          Служба кэша шрифтов Windows                                             svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\LocalService
+    FrameServer                        Сервер кадров камеры Windows                                            svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    GoogleChromeElevationService       Google Chrome Elevation Service                                         elevation_service.exe  84.0.4147.125    Own Process          Stopped               LocalSystem
+    gpsvc                              Клиент групповой политики                                               svchost.exe           10.0.18362.1     Unknown              Stopped               LocalSystem
+    GraphicsPerfSvc                    GraphicsPerfSvc                                                         svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    gupdate                            Служба Google Update (gupdate)                                          GoogleUpdate.exe      1.3.33.5         Own Process          Stopped               LocalSystem
+    gupdatem                           Служба Google Update (gupdatem)                                         GoogleUpdate.exe      1.3.33.5         Own Process          Stopped               LocalSystem
+    hidserv                            Доступ к HID-устройствам                                                svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    HvHost                             Служба узла HV                                                          svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    icssvc                             Служба Windows Mobile Hotspot                                           svchost.exe           10.0.18362.1     Share Process        Stopped               NT Authority\LocalService
+    igfxCUIService2.0.0.0              Intel(R) HD Graphics Control Panel Service                              igfxCUIService.exe    6.15.100.7262    Own Process          Running               LocalSystem
+    IKEEXT                             Модули ключей IPsec для обмена ключами в Интернете и протокола IP с проверкой подлинности  svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    IncrediBuild_Agent                 IncrediBuild Agent                                                      BuildService.exe      9.44.0.3042      Own Process          Running               LocalSystem
+    IncrediBuild_Coordinator           IncrediBuild Coordinator                                                CoordService.exe      9.44.0.3042      Own Process          Running               LocalSystem
+    InstallService                     Служба установки Microsoft Store                                        svchost.exe           10.0.18362.1     Own Process          Running               LocalSystem
+    Intel(R) Capability Licensing Service TCP IP Interface  Intel(R) Capability Licensing Service TCP IP Interface                  SocketHeciServer.exe  1.50.638.1       Own Process          Stopped               LocalSystem
+    Intel(R) TPM Provisioning Service  Intel(R) TPM Provisioning Service                                       TPMProvisioningService.exe  1.50.638.1       Own Process          Stopped               LocalSystem
+    iphlpsvc                           Вспомогательная служба IP                                               svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    IpxlatCfgSvc                       Служба настройки преобразования IP-адресов                              svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    jhi_service                        Intel(R) Dynamic Application Loader Host Interface Service              jhi_service.exe       1826.12.0.1145   Own Process          Running               LocalSystem
+    KDService                          KDService                                                               Program                                Own Process          Stopped               LocalSystem
+    KeyIso                             Изоляция ключей CNG                                                     lsass.exe             10.0.18362.1     Share Process        Running               LocalSystem
+    klnagent                           Агент администрирования Kaspersky Security Center                       klnagent.exe          12.0.0.7734      Own Process          Running               LocalSystem
+    ksnproxy                           Прокси-сервер Kaspersky Security Network                                ksnproxy.exe          12.0.1.237       Own Process          Stopped               NT SERVICE\ksnproxy
+    KtmRm                              KtmRm для координатора распределенных транзакций                        svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\NetworkService
+    LanmanServer                       Сервер                                                                  svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    LanmanWorkstation                  Рабочая станция                                                         svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\NetworkService
+    lfsvc                              Служба географического положения                                        svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    LicenseManager                     Служба Windows License Manager                                          svchost.exe           10.0.18362.1     Unknown              Running               NT Authority\LocalService
+    lltdsvc                            Тополог канального уровня                                               svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    lmhosts                            Модуль поддержки NetBIOS через TCP/IP                                   svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\LocalService
+    LMS                                Intel(R) Management and Security Application Local Management Service   LMS.exe               1846.12.0.1173   Own Process          Running               LocalSystem
+    LSM                                Диспетчер локальных сеансов                                             svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    LxpSvc                             Служба Language Experience Service                                      svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    MapsBroker                         Диспетчер скачанных карт                                                svchost.exe           10.0.18362.1     Own Process          Stopped               NT AUTHORITY\NetworkService
+    MessagingService_7281b             MessagingService_7281b                                                  svchost.exe           10.0.18362.1     Unknown              Stopped               
+    MixedRealityOpenXRSvc              Windows Mixed Reality OpenXR Service                                    svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    MozillaMaintenance                 Mozilla Maintenance Service                                             maintenanceservice.exe  68.11.0.7507     Own Process          Stopped               LocalSystem
+    mpssvc                             Брандмауэр Защитника Windows                                            svchost.exe           10.0.18362.1     Share Process        Running               NT Authority\LocalService
+    MSDTC                              Координатор распределенных транзакций                                   msdtc.exe             2001.12.10941.16384  Own Process          Stopped               NT AUTHORITY\NetworkService
+    MSiSCSI                            Служба инициатора Майкрософт iSCSI                                      svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    msiserver                          Установщик Windows                                                      msiexec.exe           5.0.18362.1      Own Process          Stopped               LocalSystem
+    NaturalAuthentication              Проверка подлинности на основе физических параметров                    svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    NcaSvc                             Помощник по подключению к сети                                          svchost.exe           10.0.18362.1     Unknown              Stopped               LocalSystem
+    NcbService                         Посредник подключений к сети                                            svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    NcdAutoSetup                       Автоматическая настройка сетевых устройств                              svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    Netlogon                           Сетевой вход в систему                                                  lsass.exe             10.0.18362.1     Share Process        Running               LocalSystem
+    Netman                             Сетевые подключения                                                     svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    netprofm                           Служба списка сетей                                                     svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\LocalService
+    NetSetupSvc                        Служба настройки сети                                                   svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    NetTcpPortSharing                  Служба общего доступа к портам Net.Tcp                                  SMSvcHost.exe         4.8.4121.0       Share Process        Stopped               NT AUTHORITY\LocalService
+    NgcCtnrSvc                         Контейнер службы Microsoft Passport                                     svchost.exe           10.0.18362.1     Unknown              Stopped               NT AUTHORITY\LocalService
+    NgcSvc                             Служба Microsoft Passport                                               svchost.exe           10.0.18362.1     Unknown              Stopped               LocalSystem
+    NlaSvc                             Служба сведений о подключенных сетях                                    svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\NetworkService
+    nsi                                Служба интерфейса сохранения сети                                       svchost.exe           10.0.18362.1     Unknown              Running               NT Authority\LocalService
+    OneSyncSvc_7281b                   Синхронизация узла_7281b                                                svchost.exe           10.0.18362.1     Unknown              Running               
+    ose64                              Office 64 Source Engine                                                 OSE.EXE               16.0.13001.20030  Own Process          Stopped               LocalSystem
+    p2pimsvc                           Диспетчер удостоверения сетевых участников                              svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    p2psvc                             Группировка сетевых участников                                          svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    PcaSvc                             Служба помощника по совместимости программ                              svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    PeerDistSvc                        BranchCache                                                             svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\NetworkService
+    perceptionsimulation               Служба имитации восприятия Windows                                      PerceptionSimulationService.exe  10.0.18362.1     Own Process          Stopped               LocalSystem
+    PerfHost                           Хост библиотеки счетчика производительности                             perfhost.exe          10.0.18362.1     Own Process          Stopped               NT AUTHORITY\LocalService
+    PhoneSvc                           Телефонная связь                                                        svchost.exe           10.0.18362.1     Share Process        Stopped               NT Authority\LocalService
+    PimIndexMaintenanceSvc_7281b       Служба контактных данных_7281b                                          svchost.exe           10.0.18362.1     Unknown              Stopped               
+    pla                                Журналы и оповещения производительности                                 svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    PlugPlay                           Plug and Play                                                           svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    PNRPAutoReg                        Служба публикации имен компьютеров PNRP                                 svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    PNRPsvc                            Протокол PNRP                                                           svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    PolicyAgent                        Агент политики IPsec                                                    svchost.exe           10.0.18362.1     Unknown              Running               NT Authority\NetworkService
+    Power                              Питание                                                                 svchost.exe           10.0.18362.1     Share Process        Running               LocalSystem
+    PrintNotify                        Расширения и уведомления для принтеров                                  svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    PrintWorkflowUserSvc_7281b         PrintWorkflow_7281b                                                     svchost.exe           10.0.18362.1     Unknown              Stopped               
+    ProfSvc                            Служба профилей пользователей                                           svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    PushToInstall                      Служба PushToInstall Windows                                            svchost.exe           10.0.18362.1     Unknown              Stopped               LocalSystem
+    QWAVE                              Quality Windows Audio Video Experience                                  svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    RasAuto                            Диспетчер автоматических подключений удаленного доступа                 svchost.exe           10.0.18362.1     Share Process        Stopped               localSystem
+    RasMan                             Диспетчер подключений удаленного доступа                                svchost.exe           10.0.18362.1     Share Process        Running               localSystem
+    RemoteAccess                       Маршрутизация и удаленный доступ                                        svchost.exe           10.0.18362.1     Share Process        Stopped               localSystem
+    RemoteRegistry                     Удаленный реестр                                                        svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    RetailDemo                         Служба демонстрации магазина                                            svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    RmSvc                              Служба управления радио                                                 svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    RpcEptMapper                       Сопоставитель конечных точек RPC                                        svchost.exe           10.0.18362.1     Share Process        Running               NT AUTHORITY\NetworkService
+    RpcLocator                         Локатор удаленного вызова процедур (RPC)                                locator.exe           10.0.18362.1     Own Process          Stopped               NT AUTHORITY\NetworkService
+    RpcSs                              Удаленный вызов процедур (RPC)                                          svchost.exe           10.0.18362.1     Share Process        Running               NT AUTHORITY\NetworkService
+    RtkAudioUniversalService           Realtek Audio Universal Service                                         RtkAudUService64.exe  1.0.0.152        Own Process          Running               LocalSystem
+    SamSs                              Диспетчер учетных записей безопасности                                  lsass.exe             10.0.18362.1     Share Process        Running               LocalSystem
+    SCardSvr                           Смарт-карта                                                             svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    ScDeviceEnum                       Служба перечисления устройств чтения смарт-карт                         svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    Schedule                           Планировщик заданий                                                     svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    SCPolicySvc                        Политика удаления смарт-карт                                            svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    SDRSVC                             Программа архивации данных                                              svchost.exe           10.0.18362.1     Own Process          Stopped               localSystem
+    seclogon                           Вторичный вход в систему                                                svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    SecurityHealthService              Служба "Безопасность Windows"                                           SecurityHealthService.exe  4.18.1901.16384  Own Process          Running               LocalSystem
+    SEMgrSvc                           Диспетчер платежей и NFC/защищенных элементов                           svchost.exe           10.0.18362.1     Own Process          Running               NT AUTHORITY\LocalService
+    SENS                               Служба уведомления о системных событиях                                 svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    Sense                              Служба Advanced Threat Protection в Защитнике Windows                   MsSense.exe                            Own Process          Stopped               LocalSystem
+    SensorDataService                  Служба данных датчиков                                                  SensorDataService.exe  10.0.18362.1     Own Process          Stopped               LocalSystem
+    SensorService                      Служба датчиков                                                         svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    SensrSvc                           Служба наблюдения за датчиками                                          svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    SessionEnv                         Настройка сервера удаленных рабочих столов                              svchost.exe           10.0.18362.1     Unknown              Running               localSystem
+    SgrmBroker                         Брокер мониторинга среды выполнения System Guard                        SgrmBroker.exe        10.0.18362.1     Own Process          Running               LocalSystem
+    SharedAccess                       Общий доступ к подключению к Интернету (ICS)                            svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    SharedRealitySvc                   Служба пространственных данных                                          svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    ShellHWDetection                   Определение оборудования оболочки                                       svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    shpamsvc                           Shared PC Account Manager                                               svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    smphost                            SMP дисковых пространств (Майкрософт)                                   svchost.exe           10.0.18362.1     Own Process          Stopped               NT AUTHORITY\NetworkService
+    SmsRouter                          Служба маршрутизатора SMS Microsoft Windows.                            svchost.exe           10.0.18362.1     Share Process        Stopped               NT Authority\LocalService
+    SNMPTRAP                           Ловушка SNMP                                                            snmptrap.exe          10.0.18362.1     Own Process          Stopped               NT AUTHORITY\LocalService
+    spectrum                           Служба восприятия Windows                                               spectrum.exe          10.0.18362.239   Own Process          Stopped               NT AUTHORITY\LocalService
+    Spooler                            Диспетчер печати                                                        spoolsv.exe           10.0.18362.900   Own Process          Running               LocalSystem
+    sppsvc                             Защита программного обеспечения                                         sppsvc.exe            10.0.18362.904   Own Process          Running               NT AUTHORITY\NetworkService
+    SQLWriter                          SQL Server, службы синхронизации контроля версий                        sqlwriter.exe         2015.130.1601.5  Own Process          Running               LocalSystem
+    SSDPSRV                            Обнаружение SSDP                                                        svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\LocalService
+    ssh-agent                          OpenSSH Authentication Agent                                            ssh-agent.exe         7.7.2.1          Own Process          Stopped               LocalSystem
+    SstpSvc                            Служба SSTP                                                             svchost.exe           10.0.18362.1     Unknown              Running               NT Authority\LocalService
+    StateRepository                    Служба репозитория состояний                                            svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    stisvc                             Служба загрузки изображений Windows (WIA)                               svchost.exe           10.0.18362.1     Own Process          Running               NT Authority\LocalService
+    StorSvc                            Служба хранилища                                                        svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    svsvc                              Быстрая проверка                                                        svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    swprv                              Программный поставщик теневого копирования (Microsoft)                  svchost.exe           10.0.18362.1     Own Process          Stopped               LocalSystem
+    SysMain                            SysMain                                                                 svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    SystemEventsBroker                 Брокер системных событий                                                svchost.exe           10.0.18362.1     Share Process        Running               LocalSystem
+    TabletInputService                 Служба сенсорной клавиатуры и панели рукописного ввода                  svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    TapiSrv                            Телефония                                                               svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\NetworkService
+    TermService                        Службы удаленных рабочих столов                                         svchost.exe           10.0.18362.1     Unknown              Running               NT Authority\NetworkService
+    Themes                             Темы                                                                    svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    TieringEngineService               Управление уровнями хранилища                                           TieringEngineService.exe  10.0.18362.1     Own Process          Stopped               localSystem
+    TimeBrokerSvc                      Брокер времени                                                          svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\LocalService
+    TokenBroker                        Диспетчер учетных веб-записей                                           svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    TrkWks                             Клиент отслеживания изменившихся связей                                 svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    TroubleshootingSvc                 Рекомендованная служба устранения неполадок                             svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    TrustedInstaller                   Установщик модулей Windows                                              TrustedInstaller.exe  10.0.18362.719   Own Process          Stopped               localSystem
+    tzautoupdate                       Автоматическое обновление часового пояса                                svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    UevAgentService                    Служба виртуализации взаимодействия с пользователем                     AgentService.exe      10.0.18362.449   Own Process          Stopped               LocalSystem
+    UmRdpService                       Перенаправитель портов пользовательского режима служб удаленных рабочих столов  svchost.exe           10.0.18362.1     Unknown              Running               localSystem
+    UnistoreSvc_7281b                  Служба хранения данных пользователя_7281b                               svchost.exe           10.0.18362.1     Unknown              Stopped               
+    upnphost                           Узел универсальных PNP-устройств                                        svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    UserDataSvc_7281b                  Служба доступа к данным пользователя_7281b                              svchost.exe           10.0.18362.1     Unknown              Stopped               
+    UserManager                        Диспетчер пользователей                                                 svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    UsoSvc                             Служба оркестратора обновлений                                          svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    VacSvc                             Служба компоновщика объемного звука                                     svchost.exe           10.0.18362.1     Own Process          Stopped               NT AUTHORITY\LocalService
+    VaultSvc                           Диспетчер учетных данных                                                lsass.exe             10.0.18362.1     Share Process        Running               LocalSystem
+    vds                                Виртуальный диск                                                        vds.exe               10.0.18362.267   Own Process          Stopped               LocalSystem
+    vmicguestinterface                 Интерфейс гостевой службы Hyper-V                                       svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    vmicheartbeat                      Служба пульса (Hyper-V)                                                 svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    vmickvpexchange                    Служба обмена данными (Hyper-V)                                         svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    vmicrdv                            Служба виртуализации удаленных рабочих столов Hyper-V                   svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    vmicshutdown                       Служба завершения работы в качестве гостя (Hyper-V)                     svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    vmictimesync                       Служба синхронизации времени Hyper-V                                    svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    vmicvmsession                      Служба Hyper-V PowerShell Direct                                        svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    vmicvss                            Служба запросов на теневое копирование томов Hyper-V                    svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    VSS                                Теневое копирование тома                                                vssvc.exe             10.0.18362.900   Own Process          Stopped               LocalSystem
+    VSStandardCollectorService150      Visual Studio Standard Collector Service 150                            StandardCollector.Service.exe  16.1.28901.1     Own Process          Stopped               LocalSystem
+    W32Time                            Служба времени Windows                                                  svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\LocalService
+    WaaSMedicSvc                       Windows Update Medic Service                                            svchost.exe           10.0.18362.1     Unknown              Stopped               LocalSystem
+    WalletService                      Служба кошелька                                                         svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    WarpJITSvc                         WarpJITSvc                                                              svchost.exe           10.0.18362.1     Own Process          Stopped               NT Authority\LocalService
+    wbengine                           Служба модуля архивации на уровне блоков                                wbengine.exe          10.0.18362.900   Own Process          Stopped               localSystem
+    WbioSrvc                           Биометрическая служба Windows                                           svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    Wcmsvc                             Диспетчер подключений Windows                                           svchost.exe           10.0.18362.1     Own Process          Running               NT Authority\LocalService
+    wcncsvc                            Немедленные подключения Windows - регистратор настройки                 svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    WdiServiceHost                     Узел службы диагностики                                                 svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\LocalService
+    WdiSystemHost                      Узел системы диагностики                                                svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    WdNisSvc                           Служба проверки сети Windows Defender Antivirus                         NisSrv.exe            4.18.2006.10     Own Process          Stopped               NT AUTHORITY\LocalService
+    WebClient                          Веб-клиент                                                              svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    Wecsvc                             Сборщик событий Windows                                                 svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\NetworkService
+    WEPHOSTSVC                         Служба узла поставщика шифрования Windows                               svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    wercplsupport                      Поддержка элемента панели управления "Отчеты о проблемах и их решениях"  svchost.exe           10.0.18362.1     Share Process        Stopped               localSystem
+    WerSvc                             Служба регистрации ошибок Windows                                       svchost.exe           10.0.18362.1     Own Process          Stopped               localSystem
+    WFDSConMgrSvc                      Служба диспетчера подключений служб Wi-Fi Direct                        svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    WiaRpc                             События получения неподвижных изображений                               svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    WinDefend                          Антивирусная программа "Защитника Windows"                              MsMpEng.exe           4.18.2006.10     Own Process          Stopped               LocalSystem
+    WinHttpAutoProxySvc                Служба автоматического обнаружения веб-прокси WinHTTP                   svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\LocalService
+    Winmgmt                            Инструментарий управления Windows                                       svchost.exe           10.0.18362.1     Unknown              Running               localSystem
+    WinRM                              Служба удаленного управления Windows (WS-Management)                    svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\NetworkService
+    wisvc                              Служба предварительной оценки Windows                                   svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    WlanSvc                            Служба автонастройки WLAN                                               svchost.exe           10.0.18362.1     Own Process          Stopped               LocalSystem
+    wlidsvc                            Помощник по входу в учетную запись Майкрософт                           svchost.exe           10.0.18362.1     Unknown              Stopped               LocalSystem
+    wlpasvc                            Служба помощника по локальному профилю                                  svchost.exe           10.0.18362.1     Share Process        Stopped               NT Authority\LocalService
+    WManSvc                            Служба управления Windows                                               svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    wmiApSrv                           Адаптер производительности WMI                                          WmiApSrv.exe          10.0.18362.1     Own Process          Stopped               localSystem
+    WMPNetworkSvc                      Служба общих сетевых ресурсов проигрывателя Windows Media               wmpnetwk.exe                           Own Process          Stopped               NT AUTHORITY\NetworkService
+    workfolderssvc                     Рабочие папки                                                           svchost.exe           10.0.18362.1     Share Process        Stopped               NT AUTHORITY\LocalService
+    WpcMonSvc                          Родительский контроль                                                   svchost.exe           10.0.18362.1     Own Process          Stopped               LocalSystem
+    WPDBusEnum                         Служба перечислителя переносных устройств                               svchost.exe           10.0.18362.1     Unknown              Stopped               LocalSystem
+    WpnService                         Служба системы push-уведомлений Windows                                 svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    WpnUserService_7281b               Пользовательская служба push-уведомлений Windows_7281b                  svchost.exe           10.0.18362.1     Unknown              Running               
+    wpscloudsvr                        WPS Office Cloud Service                                                wpscloudsvr.exe       11.2.0.9629      Own Process          Stopped               LocalSystem
+    wscsvc                             Центр обеспечения безопасности                                          svchost.exe           10.0.18362.1     Unknown              Running               NT AUTHORITY\LocalService
+    WSearch                            Windows Search                                                          SearchIndexer.exe     7.0.18362.719    Own Process          Running               LocalSystem
+    wuauserv                           Центр обновления Windows                                                svchost.exe           10.0.18362.1     Unknown              Running               LocalSystem
+    WwanSvc                            Автонастройка WWAN                                                      svchost.exe           10.0.18362.1     Share Process        Stopped               localSystem
+    XblAuthManager                     Диспетчер проверки подлинности Xbox Live                                svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    XblGameSave                        Сохранение игр на Xbox Live                                             svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    XboxGipSvc                         Xbox Accessory Management Service                                       svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+    XboxNetApiSvc                      Сетевая служба Xbox Live                                                svchost.exe           10.0.18362.1     Share Process        Stopped               LocalSystem
+
+
+--------[ Share ]-------------------------------------------------------------------------------------------------------
+
+    ADMIN$                          Folder        Удаленный Admin                           C:\Windows
+    C$                              Folder        Стандартный общий ресурс                  C:\
+    D$                              Folder        Стандартный общий ресурс                  D:\
+    IPC$                            IPC           Удаленный IPC                             
+
+
+--------[ Account Security ]--------------------------------------------------------------------------------------------
+
+    Account Security Properties:
+      Computer Role                                     Primary
+      Domain Name                                       SPESHIALIST_IKT
+      Primary Domain Controller                         Not Specified
+      Forced Logoff Time                                Disabled
+      Min / Max Password Age                            0 / 180 days
+      Minimum Password Length                           6 chars
+      Password History Length                           3 items
+      Lockout Threshold                                 Disabled
+      Lockout Duration                                  30 min
+      Lockout Observation Window                        30 min
+
+
+--------[ Users ]-------------------------------------------------------------------------------------------------------
+
+  [ DefaultAccount ]
+
+    User Properties:
+      User Name                                         DefaultAccount
+      Full Name                                         DefaultAccount
+      Comment                                           Учетная запись пользователя, управляемая системой.
+      Member Of Groups                                  Управляемая системой группа учетных записей; Отсутствует
+      Logon Count                                       0
+      Disk Quota                                        -
+
+    User Features:
+      Logon Script Executed                             Yes
+      Account Disabled                                  Yes
+      Locked Out User                                   No
+      Home Folder Required                              No
+      Password Required                                 No
+      Read-Only Password                                No
+      Password Never Expires                            Yes
+
+  [ WDAGUtilityAccount ]
+
+    User Properties:
+      User Name                                         WDAGUtilityAccount
+      Full Name                                         WDAGUtilityAccount
+      Comment                                           Учетная запись пользователя, которая управляется и используется системой для сценариев Application Guard в Защитнике Windows.
+      Member Of Groups                                  Отсутствует
+      Logon Count                                       0
+      Disk Quota                                        -
+
+    User Features:
+      Logon Script Executed                             Yes
+      Account Disabled                                  Yes
+      Locked Out User                                   No
+      Home Folder Required                              No
+      Password Required                                 Yes
+      Read-Only Password                                No
+      Password Never Expires                            No
+
+  [ Администратор ]
+
+    User Properties:
+      User Name                                         Администратор
+      Full Name                                         Администратор
+      Comment                                           Встроенная учетная запись администратора компьютера/домена
+      Member Of Groups                                  Администраторы; Отсутствует
+      Logon Count                                       0
+      Disk Quota                                        -
+
+    User Features:
+      Logon Script Executed                             Yes
+      Account Disabled                                  Yes
+      Locked Out User                                   No
+      Home Folder Required                              No
+      Password Required                                 Yes
+      Read-Only Password                                No
+      Password Never Expires                            Yes
+
+  [ Гость ]
+
+    User Properties:
+      User Name                                         Гость
+      Full Name                                         Гость
+      Comment                                           Встроенная учетная запись для доступа гостей к компьютеру или домену
+      Member Of Groups                                  Гости; Отсутствует
+      Logon Count                                       0
+      Disk Quota                                        -
+
+    User Features:
+      Logon Script Executed                             Yes
+      Account Disabled                                  Yes
+      Locked Out User                                   No
+      Home Folder Required                              No
+      Password Required                                 No
+      Read-Only Password                                Yes
+      Password Never Expires                            Yes
+
+
+--------[ Local Groups ]------------------------------------------------------------------------------------------------
+
+  [ IIS_IUSRS ]
+
+    Local Group Properties:
+      Comment                                           Встроенная группа, которую используют службы IIS.
+
+    Group Members:
+      IUSR                                              
+
+  [ KLAdmins ]
+
+    Local Group Properties:
+      Comment                                           Администраторы Kaspersky Security Center 12
+
+    Group Members:
+      ksnproxy                                          
+
+  [ KLOperators ]
+
+    Local Group Properties:
+      Comment                                           Операторы Kaspersky Security Center 12
+
+  [ Администраторы Hyper-V ]
+
+    Local Group Properties:
+      Comment                                           Члены этой группы имеют полный и неограниченный доступ ко всем функциям Hyper-V.
+
+  [ Администраторы ]
+
+    Local Group Properties:
+      Comment                                           Администраторы имеют полные, ничем не ограниченные права доступа к компьютеру или домену
+
+    Group Members:
+      KononovAV                                         
+      vechtomovvv                                       
+      Администратор                                     
+      Администраторы домена                             
+
+  [ Владельцы устройства ]
+
+    Local Group Properties:
+      Comment                                           Члены этой группы могут изменять параметры на уровне системы.
+
+  [ Гости ]
+
+    Local Group Properties:
+      Comment                                           Гости по умолчанию имеют те же права, что и пользователи, за исключением учетной записи "Гость", еще более ограниченной в правах.
+
+    Group Members:
+      Гость                                             
+
+  [ Криптографические операторы ]
+
+    Local Group Properties:
+      Comment                                           Членам разрешено выполнение операций криптографии.
+
+  [ Операторы архива ]
+
+    Local Group Properties:
+      Comment                                           Операторы архива могут переопределять ограничения доступа только в целях копирования и восстановления файлов
+
+  [ Операторы настройки сети ]
+
+    Local Group Properties:
+      Comment                                           Члены этой группы могут иметь некоторые административные права для управления настройкой сетевых параметров
+
+  [ Операторы помощи по контролю учетных записей ]
+
+    Local Group Properties:
+      Comment                                           Члены этой группы могут удаленно запрашивать атрибуты авторизации и разрешения для ресурсов на данном компьютере.
+
+  [ Опытные пользователи ]
+
+    Local Group Properties:
+      Comment                                           Категория опытных пользователей оставлена для обратной совместимости и обладает ограниченными административными правами
+
+  [ Пользователи DCOM ]
+
+    Local Group Properties:
+      Comment                                           Члены этой группы могут запускать, активизировать и использовать объекты DCOM на этом компьютере.
+
+  [ Пользователи журналов производительности ]
+
+    Local Group Properties:
+      Comment                                           Члены этой группы могут планировать ведение журнала счетчиков производительности, включать поставщиков трассировки и собирать трассировки событий как локально, так и через удаленный доступ к данному компьютеру.
+
+    Group Members:
+      ИНТЕРАКТИВНЫЕ                                     
+
+  [ Пользователи системного монитора ]
+
+    Local Group Properties:
+      Comment                                           Члены данной группы имеют как местный, так и удаленный доступ к счетчику производительности
+
+  [ Пользователи удаленного рабочего стола ]
+
+    Local Group Properties:
+      Comment                                           Члены этой группы имеют право на выполнение удаленного входа
+
+  [ Пользователи удаленного управления ]
+
+    Local Group Properties:
+      Comment                                           Члены этой группы могут получать доступ к ресурсам инструментария WMI по протоколам управления (таким как WS-Management в службе удаленного управления Windows). Это касается только пространств имен WMI, предоставляющих доступ пользователям.
+
+  [ Пользователи ]
+
+    Local Group Properties:
+      Comment                                           Пользователи не имеют прав на изменение параметров системы и могут запускать большинство приложений
+
+    Group Members:
+      ИНТЕРАКТИВНЫЕ                                     
+      Пользователи домена                               
+      Прошедшие проверку                                
+
+  [ Репликатор ]
+
+    Local Group Properties:
+      Comment                                           Поддержка репликации файлов в домене
+
+  [ Управляемая системой группа учетных записей ]
+
+    Local Group Properties:
+      Comment                                           Члены этой группы управляются системой.
+
+    Group Members:
+      DefaultAccount                                    
+
+  [ Читатели журнала событий ]
+
+    Local Group Properties:
+      Comment                                           Члены этой группы могут читать журналы событий с локального компьютера
+
+
+--------[ Global Groups ]-----------------------------------------------------------------------------------------------
+
+  [ Отсутствует ]
+
+    Global Group Properties:
+      Comment                                           Обычные пользователи
+
+    Group Members:
+      DefaultAccount                                    
+      WDAGUtilityAccount                                
+      Администратор                                     
+      Гость                                             
+
+
+--------[ Logical Drives ]----------------------------------------------------------------------------------------------
+
+    C: (SYS)                                  Local Disk          NTFS         102755 MB      51774 MB      50980 MB   50 %  E8E3-AEE0
+    D: (DATA)                                 Local Disk          NTFS         850118 MB      11799 MB     838319 MB   99 %  EC2E-BB30
+    O: (\\vNAS\public$)                       Network Drive       NTFS          11114 GB       1083 GB      10030 GB   90 %  7CE9-E951
+    P: (\\vdata\public$)                      Network Drive       NTFS           1023 GB        365 GB        658 GB   64 %  542D-F078
+    S:                                        Optical Drive                                                                           
+
+
+--------[ Physical Drives ]---------------------------------------------------------------------------------------------
+
+  [ Drive #1 - ST1000DM010-2EP102 (931 GB) C: D: ]
+
+    #1               MS Recovery                                                      1 MB      645 MB
+    #2               EFI System                                                     647 MB      330 MB
+    #3               MS Reserved                                                    978 MB       16 MB
+    #4               Basic Data       C: (SYS)                                      994 MB   102755 MB
+    #5               Basic Data       D: (DATA)                                  103750 MB   850119 MB
+
+
+--------[ Windows Network ]---------------------------------------------------------------------------------------------
+
+  [ Realtek PCIe GbE Family Controller ]
+
+    Network Adapter Properties:
+      Network Adapter                                   Realtek PCIe GbE Family Controller
+      Interface Type                                    Ethernet
+      Hardware Address                                  A8-5E-45-6D-08-72
+      Connection Name                                   Ethernet
+      Connection Speed                                  100 Mbps
+      MTU                                               1500 bytes
+      DHCP Lease Obtained                               17.08.2020 17:26:20
+      DHCP Lease Expires                                17.08.2020 17:36:20
+      Bytes Received                                    183653240 (175.1 MB)
+      Bytes Sent                                        6656256 (6.3 MB)
+
+    Network Adapter Addresses:
+      IP / Subnet Mask                                  192.168.140.146 / 255.255.255.0
+      Gateway                                           192.168.140.1
+      DHCP                                              192.168.140.1
+      DNS                                               192.168.23.4
+      DNS                                               192.168.23.5
+
+    Network Adapter Manufacturer:
+      Company Name                                      Realtek Semiconductor Corp.
+      Product Information                               https://www.realtek.com/products
+      Driver Download                                   https://www.realtek.com/downloads
+      Driver Update                                     http://www.aida64.com/goto/?p=drvupdates
+
+
+--------[ PCI / PnP Network ]-------------------------------------------------------------------------------------------
+
+    Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter                               PCI
+
+
+--------[ Internet ]----------------------------------------------------------------------------------------------------
+
+    Internet Settings:
+      Start Page                                        http://go.microsoft.com/fwlink/p/?LinkId=255141
+      Search Page                                       http://go.microsoft.com/fwlink/?LinkId=54896
+      Local Page                                        %11%\blank.htm
+      Download Folder                                   
+
+    Current Proxy:
+      Proxy Status                                      Disabled
+
+    LAN Proxy:
+      Proxy Status                                      Disabled
+
+
+--------[ Routes ]------------------------------------------------------------------------------------------------------
+
+    Active                0.0.0.0          0.0.0.0    192.168.140.1  35   192.168.140.146 (Realtek PCIe GbE Family Controller)
+    Active              127.0.0.0        255.0.0.0        127.0.0.1  331  127.0.0.1 (Software Loopback Interface 1)
+    Active              127.0.0.1  255.255.255.255        127.0.0.1  331  127.0.0.1 (Software Loopback Interface 1)
+    Active        127.255.255.255  255.255.255.255        127.0.0.1  331  127.0.0.1 (Software Loopback Interface 1)
+    Active          192.168.140.0    255.255.255.0  192.168.140.146  291  192.168.140.146 (Realtek PCIe GbE Family Controller)
+    Active        192.168.140.146  255.255.255.255  192.168.140.146  291  192.168.140.146 (Realtek PCIe GbE Family Controller)
+    Active        192.168.140.255  255.255.255.255  192.168.140.146  291  192.168.140.146 (Realtek PCIe GbE Family Controller)
+    Active              224.0.0.0        240.0.0.0        127.0.0.1  331  127.0.0.1 (Software Loopback Interface 1)
+    Active              224.0.0.0        240.0.0.0  192.168.140.146  291  192.168.140.146 (Realtek PCIe GbE Family Controller)
+    Active        255.255.255.255  255.255.255.255        127.0.0.1  331  127.0.0.1 (Software Loopback Interface 1)
+    Active        255.255.255.255  255.255.255.255  192.168.140.146  291  192.168.140.146 (Realtek PCIe GbE Family Controller)
+
+
+--------[ USB Devices ]-------------------------------------------------------------------------------------------------
+
+  [ USB-устройство ввода (USB Optical Mouse) ]
+
+    Device Properties:
+      Device Description                                USB-устройство ввода
+      Device ID                                         046D-C077
+      Device Class                                      03 / 01 (Human Interface Device)
+      Device Protocol                                   02
+      Revision                                          7200h
+      Manufacturer                                      Logitech
+      Product                                           USB Optical Mouse
+      Supported USB Version                             2.00
+      Current Speed                                     Low  (USB 1.1)
+
+  [ Составное USB устройство (USB Keyboard) ]
+
+    Device Properties:
+      Device Description                                Составное USB устройство
+      Device ID                                         046D-C31C
+      Device Class                                      03 / 01 (Human Interface Device)
+      Device Protocol                                   01
+      Revision                                          6402h
+      Manufacturer                                      Logitech
+      Product                                           USB Keyboard
+      Supported USB Version                             1.10
+      Current Speed                                     Low  (USB 1.1)
+
+  [ Unknown Device ]
+
+    Device Properties:
+      Device Description                                Unknown Device
+      Device ID                                         0000-0000
+      Device Class                                      00 / 00
+      Device Protocol                                   00
+      Revision                                          0000h
+      Supported USB Version                             0.00
+      Current Speed                                     Low  (USB 1.1)
+
+  [ Unknown Device ]
+
+    Device Properties:
+      Device Description                                Unknown Device
+      Device ID                                         0000-0000
+      Device Class                                      00 / 00
+      Device Protocol                                   00
+      Revision                                          0000h
+      Supported USB Version                             0.00
+      Current Speed                                     Low  (USB 1.1)
+
+  [ Unknown Device ]
+
+    Device Properties:
+      Device Description                                Unknown Device
+      Device ID                                         0000-0000
+      Device Class                                      00 / 00
+      Device Protocol                                   00
+      Revision                                          0000h
+      Supported USB Version                             0.00
+      Current Speed                                     Low  (USB 1.1)
+
+  [ Unknown Device ]
+
+    Device Properties:
+      Device Description                                Unknown Device
+      Device ID                                         0000-0000
+      Device Class                                      00 / 00
+      Device Protocol                                   00
+      Revision                                          0000h
+      Supported USB Version                             0.00
+      Current Speed                                     Low  (USB 1.1)
+
+  [ Unknown Device ]
+
+    Device Properties:
+      Device Description                                Unknown Device
+      Device ID                                         0000-0000
+      Device Class                                      00 / 00
+      Device Protocol                                   00
+      Revision                                          0000h
+      Supported USB Version                             0.00
+      Current Speed                                     Low  (USB 1.1)
+
+  [ Unknown Device ]
+
+    Device Properties:
+      Device Description                                Unknown Device
+      Device ID                                         0000-0000
+      Device Class                                      00 / 00
+      Device Protocol                                   00
+      Revision                                          0000h
+      Supported USB Version                             0.00
+      Current Speed                                     Low  (USB 1.1)
+
+
+--------[ Printers ]----------------------------------------------------------------------------------------------------
+
+  [ \\vPDC\Kyocera ECOSYS M3145idn (Отдел ТР) (Default) ]
+
+    Printer Properties:
+      Printer Name                                      \\vPDC\Kyocera ECOSYS M3145idn (Отдел ТР)
+      Default Printer                                   Yes
+      Share Point                                       Kyocera ECOSYS M3145idn (Отдел ТР)
+      Printer Port                                      prn-srv-k605
+      Printer Driver                                    Kyocera ECOSYS M3145idn KX (v1.03)
+      Device Name                                       \\CSR|vPDC\{8B515E25-FF4C-4DBA-
+      Print Processor                                   winprint
+      Separator Page                                    None
+      Availability                                      Always
+      Priority                                          1
+      Print Jobs Queued                                 0
+      Status                                            Offline
+
+    Paper Properties:
+      Paper Size                                        A4, 210 x 297 mm
+      Orientation                                       Portrait
+      Print Quality                                     600 x 600 dpi Color(
+
+    Printer Manufacturer:
+      Company Name                                      Kyocera Mita Corporation
+      Product Information                               http://www.kyoceramita.com
+      Driver Update                                     http://www.aida64.com/goto/?p=drvupdates
+
+  [ \\vPDC\Kyocera ECOSYS P4040dn (Отдел админов) ]
+
+    Printer Properties:
+      Printer Name                                      \\vPDC\Kyocera ECOSYS P4040dn (Отдел админов)
+      Default Printer                                   No
+      Share Point                                       Not shared
+      Printer Port                                      prn-srv-k604
+      Printer Driver                                    Kyocera ECOSYS P4040dn KX (v1.03)
+      Device Name                                       \\CSR|vPDC\{948006CD-5660-4ACB-
+      Print Processor                                   winprint
+      Separator Page                                    None
+      Availability                                      Always
+      Priority                                          1
+      Print Jobs Queued                                 0
+      Status                                            Unknown
+
+    Paper Properties:
+      Paper Size                                        A4, 210 x 297 mm
+      Orientation                                       Portrait
+      Print Quality                                     600 x 600 dpi Mono(1
+
+    Printer Manufacturer:
+      Company Name                                      Kyocera Mita Corporation
+      Product Information                               http://www.kyoceramita.com
+      Driver Update                                     http://www.aida64.com/goto/?p=drvupdates
+
+  [ OneNote (Desktop) ]
+
+    Printer Properties:
+      Printer Name                                      OneNote (Desktop)
+      Default Printer                                   No
+      Share Point                                       Not shared
+      Printer Port                                      nul:
+      Printer Driver                                    Send to Microsoft OneNote 16 Driver (v6.03)
+      Device Name                                       OneNote (Desktop)
+      Print Processor                                   winprint
+      Separator Page                                    None
+      Availability                                      Always
+      Priority                                          1
+      Print Jobs Queued                                 0
+      Status                                            Unknown
+
+    Paper Properties:
+      Paper Size                                        A4, 210 x 297 mm
+      Orientation                                       Portrait
+      Print Quality                                     600 x 600 dpi Color
+
+  [ OneNote for Windows 10 ]
+
+    Printer Properties:
+      Printer Name                                      OneNote for Windows 10
+      Default Printer                                   No
+      Share Point                                       Not shared
+      Printer Port                                      Microsoft.Office.OneNote_16001.12827.20538.0_x64__8wekyb3d8bbwe_microsoft.onenoteim_S-1-5-21-928894763-284993491-3031168176-2104
+      Printer Driver                                    Microsoft Software Printer Driver (v6.03)
+      Device Name                                       OneNote for Windows 10
+      Print Processor                                   winprint
+      Separator Page                                    None
+      Availability                                      Always
+      Priority                                          1
+      Print Jobs Queued                                 0
+      Status                                            Unknown
+
+    Paper Properties:
+      Paper Size                                        A4, 210 x 297 mm
+      Orientation                                       Portrait
+      Print Quality                                     300 x 300 dpi Color
+
+
+--------[ Installed Programs ]------------------------------------------------------------------------------------------
+
+    Adobe Acrobat Reader DC - Russian [Русский (Россия)]                                  20.012.20041     Unknown  {AC76BA86-7AD7-1049-7B44-AC0F074E4100}        Adobe Systems Incorporated      2020-08-13
+    Adobe Refresh Manager                                                                        1.8.0     Unknown  {AC76BA86-0804-1033-1959-000182439564}        Adobe Systems Incorporated      2020-08-13
+    Application Verifier x64 External Package                                             10.1.18362.1     Unknown  {10CA1677-8F02-3131-F25C-780BAB52E468}        Microsoft                       2020-08-17
+    Backup and Sync from Google                                                         3.50.3166.0017     Unknown  {01D33BEA-673C-439C-A7C7-DE5B236DB842}        Google, Inc.                    2020-07-16
+    ClickOnce Bootstrapper Package for Microsoft .NET Framework                              4.8.04119     Unknown  {0243F145-076D-423A-8F77-218DC8840261}        Microsoft Corporation           2020-08-17
+    DiagnosticsHub_CollectionService                                                        16.1.28901     Unknown  {1F3C3AAC-9F7A-47DA-A082-0ACE770041BE}        Microsoft Corporation           2020-08-17
+    Entity Framework 6.2.0 Tools  for Visual Studio 2019                                       6.2.0.0     Unknown  {7C2070BF-8E07-4B5F-A182-FADB0B95AB39}        Microsoft Corporation           2020-08-17
+    Far Manager 3 x64                                                                         3.0.5577     Unknown  {F4DE8165-D2C7-44E7-8C36-A04CB3FDD7EF}        Eugene Roshal & Far Group       2020-07-16
+    GitHub Desktop                                                                               2.5.3     Unknown  GitHubDesktop                                 GitHub, Inc.                    2020-08-17
+    Google Chrome                                                                        84.0.4147.125     Unknown  Google Chrome                                 Google LLC                      2020-08-11
+    Google Update Helper                                                                    1.3.35.451     Unknown  {60EC980A-BDA2-4CB6-A427-B07A5498B4CA}        Google LLC                      2020-04-22
+    icecap_collection_neutral                                                               16.7.30310     Unknown  {EEF3770F-1EEF-4AA4-94E7-4B1DEBEED8B6}        Microsoft Corporation           2020-08-17
+    icecap_collection_x64                                                                   16.7.30310     Unknown  {1E36C98F-0653-495C-B28E-433A6740ADB0}        Microsoft Corporation           2020-08-17
+    icecap_collectionresources [Русский (Россия)]                                           16.7.30310     Unknown  {DBF8B59E-64FA-4448-936E-904428661E07}        Microsoft Corporation           2020-08-17
+    icecap_collectionresourcesx64 [Русский (Россия)]                                        16.7.30309     Unknown  {0BE981D1-D9A8-419E-A2F7-52AFD2101CCC}        Microsoft Corporation           2020-08-17
+    Intel(R) Chipset Device Software                                                   10.1.17809.8096     Unknown  {C7CC96C7-C99C-40DD-BB6B-C7BFC2899979}        Intel Corporation               2020-04-22
+    Intel(R) Management Engine Components                                                      1.0.0.0     Unknown  {B557A9A1-D64B-43D7-B598-F7BAAE897CF3}        Intel Corporation               2020-04-22
+    Intel(R) Management Engine Components                                               1846.12.0.1177     Unknown  {1CEAC85D-2590-4760-800F-8DE5E91F3700}        Intel Corporation                         
+    Intel(R) Management Engine Driver                                                          1.0.0.0     Unknown  {3479FCE3-F7D2-4980-819A-767941440932}        Intel Corporation               2020-04-22
+    Intel(R) Trusted Connect Service Client x64                                             1.50.638.1     Unknown  {C9552825-7BF2-4344-BA91-D3CD46F4C442}        Intel Corporation               2020-04-22
+    Intel(R) Trusted Connect Service Client x86                                             1.50.638.1     Unknown  {C9552825-7BF2-4344-BA91-D3CD46F4C441}        Intel Corporation               2020-04-22
+    Intel(R) Trusted Connect Services Client                                                1.50.638.1     Unknown  {99ee3c29-c7cd-450f-8db9-d43cc49de1c7}        Intel Corporation                         
+    IntelliTraceProfilerProxy                                                            15.0.18198.01     Unknown  {7D94CF67-6666-4111-B027-D7AB7F189F70}        Microsoft Corporation           2020-08-17
+    Kaspersky Endpoint Security для Windows [Русский (Россия)]                              11.4.0.233     Unknown  {AF1904E7-A94C-4F4C-B3B7-EC54D7429DA2}        АО "Лаборатория Касперского"    2020-07-08
+    Kits Configuration Installer                                                          10.1.18362.1     Unknown  {63AAA877-5536-9481-2385-28A082100D78}        Microsoft                       2020-08-17
+    Microsoft .NET Core 2.1 Templates 3.1.401 (x64)                                      2.1.15.015229     Unknown  {6B0CC835-E546-45FE-ABAC-4DDD6F653232}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Core 3.1 Templates 3.1.401 (x64)                                       3.1.8.015229     Unknown  {74AD63B9-8164-49EE-9F93-707D57EA9D5F}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Core AppHost Pack - 3.1.7 (x64)                                         24.92.29121     Unknown  {8FDA0EC9-39FC-4133-A49F-E504751B6409}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Core AppHost Pack - 3.1.7 (x64_arm)                                     24.92.29121     Unknown  {8878AA7F-A0FA-43C1-8B34-CC1C13CE44A4}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Core AppHost Pack - 3.1.7 (x64_arm64)                                   24.92.29121     Unknown  {1FD261D7-4AA5-404B-AF84-6E701A5B6632}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Core AppHost Pack - 3.1.7 (x64_x86)                                     24.92.29121     Unknown  {63BBBA45-8A20-459B-9DB3-789901913A1C}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Core Host - 3.1.7 (x64)                                                 24.92.29121     Unknown  {857174F2-D837-4C6F-A6B9-B7DB1CEAB650}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Core Host FX Resolver - 3.1.7 (x64)                                     24.92.29121     Unknown  {771AD364-C865-4078-B9E0-B4821ECA3613}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Core Host FX Resolver - 3.1.7 (x86)                                     24.92.29121     Unknown  {34A67F6C-3CAB-420A-90BD-84EB90A338EF}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Core Runtime - 2.1.21 (x64)                                             16.84.29130     Unknown  {389D9E68-01CD-4655-BF34-F72C35580D2D}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Core Runtime - 3.1.7 (x64)                                              24.92.29121     Unknown  {08B78E2D-AEE2-4396-A5AD-828B9396B69D}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Core Runtime - 3.1.7 (x86)                                              24.92.29121     Unknown  {140B9A56-E2E6-4A07-A448-CCD9353E0F5E}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Core SDK 3.1.401 (x64) from Visual Studio                            3.1.401.015229     Unknown  {3C9F2C0F-9936-4893-9266-0A21E6D301C5}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Core Targeting Pack - 3.1.0 (x64)                                       24.64.28315     Unknown  {31EDE1E7-C855-4633-9D73-56F566136567}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Core Toolset 3.1.401 (x64)                                              12.16.31613     Unknown  {99C84C13-C275-4D7C-97F6-2EA6866B72D7}        Microsoft Corporation           2020-08-17
+    Microsoft .NET CoreRuntime For CoreCon                                                     1.0.0.0     Unknown  {48A8F171-52F2-372B-8414-EA50617708BE}        Microsoft Corporation           2020-08-17
+    Microsoft .NET CoreRuntime SDK                                                         1.1.27004.0     Unknown  {12702494-9E6A-3F5E-9441-2B7D258A639B}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Framework 4 Multi-Targeting Pack                                          4.0.30319     Unknown  {CFEF48A8-BFB8-3EAC-8BA5-DE4F8AA267CE}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Framework 4.5 Multi-Targeting Pack                                        4.5.50710     Unknown  {56E962F0-4FB0-3C67-88DB-9EAA6EEFC493}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Framework 4.5.1 Multi-Targeting Pack                                      4.5.50932     Unknown  {6A0C6700-EA93-372C-8871-DCCF13D160A4}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Framework 4.5.2 Multi-Targeting Pack                                      4.5.51651     Unknown  {19E8AE59-4D4A-3534-B567-6CC08FA4102E}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Framework 4.6 Targeting Pack                                              4.6.00081     Unknown  {2CC6A4A7-AAC2-46C9-9DBB-3727B5954F65}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Framework 4.6.1 Targeting Pack                                            4.6.01055     Unknown  {8BC3EEC9-090F-4C53-A8DA-1BEC913040F9}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Framework 4.7.2 Targeting Pack                                            4.7.03062     Unknown  {1784A8CD-F7FE-47E2-A87D-1F31E7242D0D}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Framework 4.8 SDK                                                         4.8.03928     Unknown  {949C0535-171C-480F-9CF4-D25C9E60FE88}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Framework 4.8 Targeting Pack                                              4.8.03761     Unknown  {BAAF5851-0759-422D-A1E9-90061B597188}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Native SDK                                                            15.0.24211.07     Unknown  {EF0C772D-F5E3-36D0-BDAB-FD378533CD40}        Microsoft Corporation           2020-08-17
+    Microsoft .NET Standard Targeting Pack - 2.1.0 (x64)                                    24.0.28113     Unknown  {A7036CFB-B403-4598-85FF-D397ABB88173}        Microsoft Corporation           2020-08-17
+    Microsoft ASP.NET Core 2.1.21 Shared Framework (x64)                                      2.1.21.0     Unknown  {67196564-7106-36C7-B17F-B446ACED55A9}        Microsoft Corporation           2020-08-17
+    Microsoft ASP.NET Core 3.1.3 Targeting Pack (x64)                                          3.1.3.0     Unknown  {0DDEAE87-9909-334B-A5AA-6CF9A9E3F170}        Microsoft Corporation           2020-08-17
+    Microsoft ASP.NET Core 3.1.7 Shared Framework (x64)                                        3.1.7.0     Unknown  {02A9F3AF-DB1E-30D4-B456-7B8BBB7BE2D3}        Microsoft Corporation           2020-08-17
+    Microsoft ASP.NET Core 3.1.7 Shared Framework (x86)                                        3.1.7.0     Unknown  {2A010CC5-3FD5-3533-9CBF-93696DC04BD2}        Microsoft Corporation           2020-08-17
+    Microsoft NetStandard SDK                                                               15.0.51105     Unknown  {737FDDA7-B944-4CB5-92D9-3D56373BD301}        Microsoft Corporation           2020-08-17
+    Microsoft Office Home and Business 2019 - ru-ru                                   16.0.13029.20344     Unknown  HomeBusiness2019Retail - ru-ru                Microsoft Corporation                     
+    Microsoft OneDrive                                                                20.124.0621.0006     Unknown  OneDriveSetup.exe                             Microsoft Corporation                     
+    Microsoft Portable Library Multi-Targeting Pack Language Pack - rus [Русский (Россия)]     16.0.28329.73     Unknown  {DD724785-2B80-316F-9D47-5F7F9C76351E}        Microsoft Corporation           2020-08-17
+    Microsoft Portable Library Multi-Targeting Pack                                      16.0.28329.73     Unknown  {B772198D-90AC-3150-9691-F840205A8CDE}        Microsoft Corporation           2020-08-17
+    Microsoft SQL Server 2016 LocalDB [Русский (Россия)]                                   13.1.4001.0     Unknown  {1A15C88E-6D53-4672-A3EA-CC7B41F1DB9F}        Microsoft Corporation           2020-08-17
+    Microsoft System CLR Types для SQL Server 2019 CTP2.2 [Русский (Россия)]              15.0.1200.24     Unknown  {AFACBF07-24D7-4590-BB58-7C6F7B864CA0}        Microsoft Corporation           2020-08-17
+    Microsoft TestPlatform SDK Local Feed                                                     16.6.0.4     Unknown  {A3766534-01E5-41FA-A9EA-E1A4CD5DE2CF}        Microsoft                       2020-08-17
+    Microsoft UniversalWindowsPlatform SDK                                                     15.9.12     Unknown  {61B7616F-3C59-41E2-8376-11440B06E7EA}        Microsoft                       2020-08-17
+    Microsoft VC++ redistributables repacked.                                                 12.0.0.0     Unknown  {B81577B2-3AD0-4AFD-A19C-87F673C09D0C}        Intel Corporation               2020-04-22
+    Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.27.29016                   14.27.29016.0     Unknown  {40d3fee2-b257-46c2-bdc0-cb1088d97327}        Microsoft Corporation                     
+    Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.27.29016                   14.27.29016.0     Unknown  {1aaa01ad-3069-4288-9c6f-37a140a8f6c7}        Microsoft Corporation                     
+    Microsoft Visual C++ 2019 X64 Additional Runtime - 14.27.29016                         14.27.29016     Unknown  {F07B1E25-5670-4556-9C7F-5A1966C83269}        Microsoft Corporation           2020-08-17
+    Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.27.29016                            14.27.29016     Unknown  {E493B8F4-E300-43EC-95D0-BDF3711297EA}        Microsoft Corporation           2020-08-17
+    Microsoft Visual C++ 2019 X86 Additional Runtime - 14.27.29016                         14.27.29016     Unknown  {5CD4E357-9ED6-42AC-B654-F1FC21DD60C9}        Microsoft Corporation           2020-08-17
+    Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.27.29016                            14.27.29016     Unknown  {E2C131AD-D30F-4D67-ACE9-B3D485E84DA8}        Microsoft Corporation           2020-08-17
+    Microsoft Visual Studio Installer                                                     2.7.3064.805     Unknown  {6F320B93-EE3C-4826-85E0-ADF79F8D4C61}        Microsoft Corporation           2020-08-17
+    Microsoft Visual Studio Setup Configuration                                         2.7.3111.17308     Unknown  {CBD54374-141A-4C71-AE46-3870CC7F0838}        Microsoft Corporation           2020-08-17
+    Microsoft Visual Studio Setup WMI Provider                                          2.7.3111.17308     Unknown  {E5629267-C38E-4899-931E-A734A1499223}        Microsoft Corporation           2020-08-17
+    Microsoft Web Deploy 4.0                                                                 10.0.3802     Unknown  {2EC26D34-FB67-4C58-AC20-235697551222}        Microsoft Corporation           2020-08-17
+    Microsoft Windows Desktop Runtime - 3.1.7 (x64)                                        24.92.29121     Unknown  {8919B6CD-11D0-40E8-B7E5-95FF7B61963B}        Microsoft Corporation           2020-08-17
+    Microsoft Windows Desktop Runtime - 3.1.7 (x86)                                        24.92.29121     Unknown  {A0FFFC20-CB5B-42CA-9A2B-90EB007F657C}        Microsoft Corporation           2020-08-17
+    Microsoft Windows Desktop Targeting Pack - 3.1.0 (x64)                                 24.64.28315     Unknown  {7519423C-A977-4160-83A2-48633600A216}        Microsoft Corporation           2020-08-17
+    Mozilla Maintenance Service                                                                 68.9.0     Unknown  MozillaMaintenanceService                     Mozilla                                   
+    Mozilla Thunderbird 68.11.0 (x86 ru)                                                       68.11.0     Unknown  Mozilla Thunderbird 68.11.0 (x86 ru)          Mozilla                                   
+    MSI Development Tools                                                                 10.1.18362.1     Unknown  {DB4DB790-64DD-1902-4BF2-833B3B6DBCA1}        Microsoft Corporation           2020-08-17
+    Office 16 Click-to-Run Extensibility Component                                    16.0.13029.20200     Unknown  {90160000-008C-0000-1000-0000000FF1CE}        Microsoft Corporation           2020-08-10
+    Office 16 Click-to-Run Licensing Component                                        16.0.13029.20236     Unknown  {90160000-007E-0000-1000-0000000FF1CE}        Microsoft Corporation           2020-08-10
+    Office 16 Click-to-Run Localization Component [Русский (Россия)]                  16.0.13029.20200     Unknown  {90160000-008C-0419-1000-0000000FF1CE}        Microsoft Corporation           2020-08-10
+    Python 3.7.8 Core Interpreter (32-bit symbols)                                          3.7.8150.0     Unknown  {976B6C83-FD2E-44C8-B3B6-658B9A2685EC}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Core Interpreter (32-bit)                                                  3.7.8150.0     Unknown  {7BB829AA-8C8E-48C1-B257-19391425BC38}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Core Interpreter (64-bit symbols)                                          3.7.8150.0     Unknown  {D5C2F5B5-AE03-4897-B7EB-88EDEB52E55F}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Core Interpreter (64-bit)                                                  3.7.8150.0     Unknown  {8DE1D24F-C0EA-42D5-87D0-7F3071932A15}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Development Libraries (32-bit)                                             3.7.8150.0     Unknown  {3D7B069C-2048-46B8-AC73-FFD3CDCE50D2}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Development Libraries (64-bit)                                             3.7.8150.0     Unknown  {BB556C96-3906-453B-B068-E17C1F13C814}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Documentation (32-bit)                                                     3.7.8150.0     Unknown  {C656821A-987B-4D7C-83CD-FBF621B0C618}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Documentation (64-bit)                                                     3.7.8150.0     Unknown  {A90E9216-6C61-4A2B-A18E-85EF9DF6A2C0}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Executables (32-bit symbols)                                               3.7.8150.0     Unknown  {2A1527AF-B8D2-4019-A72C-6180A9949334}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Executables (32-bit)                                                       3.7.8150.0     Unknown  {EC08EC27-DBBB-4120-9D7C-6A3CB11BB5F2}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Executables (64-bit symbols)                                               3.7.8150.0     Unknown  {FAF0840F-75F4-4331-819A-C5B88251F402}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Executables (64-bit)                                                       3.7.8150.0     Unknown  {0EEFE4AC-ED52-4F6F-A726-A9030991B75D}        Python Software Foundation      2020-08-17
+    Python 3.7.8 pip Bootstrap (32-bit)                                                     3.7.8150.0     Unknown  {D7AE4F98-508C-47F9-891B-DA90F7950E6C}        Python Software Foundation      2020-08-17
+    Python 3.7.8 pip Bootstrap (64-bit)                                                     3.7.8150.0     Unknown  {AD820C10-4106-47D5-B6BD-4B3CEA93E429}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Standard Library (32-bit symbols)                                          3.7.8150.0     Unknown  {9DC3A263-25EF-425F-8FAE-6201A9A88026}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Standard Library (32-bit)                                                  3.7.8150.0     Unknown  {DF23C265-AECB-4C69-BD95-FF602B2B2E90}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Standard Library (64-bit symbols)                                          3.7.8150.0     Unknown  {F7B2245C-D3F3-4CCC-A558-702AB2069D57}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Standard Library (64-bit)                                                  3.7.8150.0     Unknown  {68A406B0-F664-4882-8035-4015C78DDC93}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Tcl/Tk Support (32-bit symbols)                                            3.7.8150.0     Unknown  {04A0F4A0-DF35-4F49-BE7D-E17965C0D85E}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Tcl/Tk Support (32-bit)                                                    3.7.8150.0     Unknown  {F89F30D8-8C2C-4EB4-B5BE-E10B4FC1222D}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Tcl/Tk Support (64-bit symbols)                                            3.7.8150.0     Unknown  {833EA197-6356-48B6-9E90-AE2D2CCC5479}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Tcl/Tk Support (64-bit)                                                    3.7.8150.0     Unknown  {223ADA3A-F506-428A-9244-C3EA445AD42A}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Test Suite (32-bit symbols)                                                3.7.8150.0     Unknown  {453E79E1-71E5-44F6-8D7A-E92F9AAF4112}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Test Suite (32-bit)                                                        3.7.8150.0     Unknown  {23ECC627-07C7-4A8C-8066-9D6A5E4C4E36}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Test Suite (64-bit symbols)                                                3.7.8150.0     Unknown  {F0759285-644B-4AAF-BB09-CA4592C12B89}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Test Suite (64-bit)                                                        3.7.8150.0     Unknown  {FE029834-AD26-45F1-B622-8DE59A8B1048}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Utility Scripts (32-bit)                                                   3.7.8150.0     Unknown  {83842F6B-9DC7-4EE2-9CFB-9DE3C1A7FB20}        Python Software Foundation      2020-08-17
+    Python 3.7.8 Utility Scripts (64-bit)                                                   3.7.8150.0     Unknown  {3BDFA237-E962-435F-A556-A2BE2EE1464C}        Python Software Foundation      2020-08-17
+    Python Launcher                                                                         3.7.7118.0     Unknown  {B25A5062-540A-4141-80D3-50FA598523F3}        Python Software Foundation      2020-08-17
+    Realtek Ethernet Controller Driver                                                  10.31.828.2018     Unknown  {8833FFB6-5B0C-4764-81AA-06DFEED9A476}        Realtek                         2020-04-22
+    Realtek High Definition Audio Driver [Русский (Россия)]                                 6.0.1.8573     Unknown  {F132AF7F-7BCA-4EDE-8A7C-958108FE7DBC}        Realtek Semiconductor Corp.     2020-04-22
+    SDK ARM Additions                                                                     10.1.18362.1     Unknown  {73681F86-CD86-4208-572F-959B45430B04}        Microsoft Corporation           2020-08-17
+    SDK ARM Redistributables                                                              10.1.18362.1     Unknown  {67EE3804-9642-62BA-EBF1-B1561FB4ECBE}        Microsoft Corporation           2020-08-17
+    Spark 2.8.3.960                                                                          2.8.3.960     Unknown  3057-7228-2063-7466                           Ignite Realtime                           
+    TypeScript SDK                                                                             3.9.6.0     Unknown  {A6485A79-9A1B-4EEF-8BD2-658157F68355}        Microsoft Corporation           2020-08-17
+    Universal CRT Extension SDK                                                           10.1.18362.1     Unknown  {13952D7A-B7B3-F4F8-5F29-5CD18E8168B7}        Microsoft Corporation           2020-08-17
+    Universal CRT Headers Libraries and Sources                                           10.1.18362.1     Unknown  {74CBC330-ED16-31B9-E8BE-0C6A8E67DE32}        Microsoft Corporation           2020-08-17
+    Universal CRT Redistributable                                                         10.1.18362.1     Unknown  {847D4DAF-0182-265B-324F-406462E8A90D}        Microsoft Corporation           2020-08-17
+    Universal CRT Tools x64                                                               10.1.18362.1     Unknown  {54FE4D23-11A2-F1C4-76E9-79C8FB40A4A1}        Microsoft Corporation           2020-08-17
+    Universal CRT Tools x86                                                               10.1.18362.1     Unknown  {9F7B0D96-881D-8850-C303-43F3A08E6902}        Microsoft Corporation           2020-08-17
+    Universal General MIDI DLS Extension SDK                                              10.1.18362.1     Unknown  {6F54BF87-2EE6-FA6D-431D-33A665992D49}        Microsoft Corporation           2020-08-17
+    Update for  (KB2504637)                                                                          1     Unknown  {CFEF48A8-BFB8-3EAC-8BA5-DE4F8AA267CE}.KB2504637  Microsoft Corporation                     
+    vcpp_crt.redist.clickonce [Русский (Россия)]                                           14.27.29016     Unknown  {827CB134-CDE7-453D-8D91-28D8DA2F023A}        Microsoft Corporation           2020-08-17
+    Visual C++ Library CRT Appx Package                                                    14.27.29110     Unknown  {3C24F602-8198-4728-9B28-E6835577C693}        Microsoft Corporation           2020-08-17
+    Visual C++ Library CRT Appx Resource Package [Русский (Россия)]                        14.27.29110     Unknown  {3FAE0DA2-D7BC-46C5-BD78-5E6395C55A70}        Microsoft Corporation           2020-08-17
+    Visual C++ Library CRT ARM64 Appx Package                                              14.27.29110     Unknown  {DCC0C405-77CB-4B16-BDE0-1F175259C4D7}        Microsoft Corporation           2020-08-17
+    Visual C++ Library CRT Desktop Appx Package                                            14.27.29110     Unknown  {94AD4699-0D75-4277-9F09-C0AAAFB5D397}        Microsoft Corporation           2020-08-17
+    Visual Studio Community 2019                                                        16.7.30406.217     Unknown  b2396ab0                                      Microsoft Corporation           2020-08-17
+    VS Immersive Activate Helper                                                            16.0.102.0     Unknown  {A71406B5-E487-4B01-8E59-D466841350F5}        Microsoft Corporation           2020-08-17
+    VS JIT Debugger                                                                         16.0.102.0     Unknown  {C7E8A4F2-EF09-42A8-B892-69D5ED99D965}        Microsoft Corporation           2020-08-17
+    VS Script Debugging Common                                                              16.0.102.0     Unknown  {A4272808-82F5-410F-A5F9-1BF6F63F6B9A}        Microsoft Corporation           2020-08-17
+    vs_BlendMsi                                                                             16.0.28329     Unknown  {B5E3A3E1-1529-4D5A-9E95-34971FA07825}        Microsoft Corporation           2020-08-17
+    vs_clickoncebootstrappermsi                                                             16.0.28329     Unknown  {BAF91847-0A64-405E-98EC-A0BA6FB4BC4E}        Microsoft Corporation           2020-08-17
+    vs_clickoncebootstrappermsires                                                          16.0.28329     Unknown  {271F1F42-B547-4498-825F-590DBB1774F7}        Microsoft Corporation           2020-08-17
+    vs_clickoncesigntoolmsi                                                                 16.0.28329     Unknown  {30D97A69-3C0F-4552-9A72-60E591B210C7}        Microsoft Corporation           2020-08-17
+    vs_communitymsi                                                                         16.7.30310     Unknown  {CC46F5AE-F0CA-400C-A557-A95D742D4EE0}        Microsoft Corporation           2020-08-17
+    vs_communitymsires [Русский (Россия)]                                                   16.0.28329     Unknown  {E3358654-0480-49F3-B416-4ABB9A806F4B}        Microsoft Corporation           2020-08-17
+    vs_devenvmsi                                                                            16.0.28329     Unknown  {AD0C92A4-1514-4BC1-A723-A272A8343924}        Microsoft Corporation           2020-08-17
+    vs_filehandler_amd64                                                                    16.7.30309     Unknown  {804E218D-A59D-48B9-AD2A-13BF6F1C9DA0}        Microsoft Corporation           2020-08-17
+    vs_filehandler_x86                                                                      16.7.30309     Unknown  {3A735826-F946-4348-8DE2-0B9FF750F77D}        Microsoft Corporation           2020-08-17
+    vs_FileTracker_Singleton                                                                16.7.30309     Unknown  {EF1AD9BC-8273-4B78-ACB6-A35DF4CE4447}        Microsoft Corporation           2020-08-17
+    vs_minshellinteropmsi                                                                   16.2.28917     Unknown  {27B16914-BC5D-4018-8074-071262A27F6D}        Microsoft Corporation           2020-08-17
+    vs_minshellmsi                                                                          16.7.30310     Unknown  {760FF3F5-A7F3-4079-92DD-9AEB0344D13E}        Microsoft Corporation           2020-08-17
+    vs_minshellmsires [Русский (Россия)]                                                    16.0.28329     Unknown  {9CB41072-16BD-4705-9389-4516397E341F}        Microsoft Corporation           2020-08-17
+    vs_SQLClickOnceBootstrappermsi                                                          16.7.30309     Unknown  {937CD512-3142-4F3E-93CD-5F86203ED24B}        Microsoft Corporation           2020-08-17
+    vs_tipsmsi                                                                              16.0.28329     Unknown  {E208E682-50EE-4F2F-9860-C91B906B8A03}        Microsoft Corporation           2020-08-17
+    vs_vswebprotocolselectormsi                                                             16.7.30309     Unknown  {178ED1EA-BAFA-489D-873D-F5FB72EA69B9}        Microsoft Corporation           2020-08-17
+    vs_vswebprotocolselectormsires [Русский (Россия)]                                       16.7.30309     Unknown  {46026791-7196-4F54-B99E-2DE793CD35B9}        Microsoft Corporation           2020-08-17
+    WinAppDeploy                                                                          10.1.18362.1     Unknown  {8E3AE0EF-D067-700C-BDB4-10D5552155DC}        Microsoft Corporation           2020-08-17
+    Windows App Certification Kit Native Components                                       10.1.18362.1     Unknown  {21F4DE3E-CE64-584E-BD74-2D1765EB39DE}        Microsoft Corporation           2020-08-17
+    Windows App Certification Kit SupportedApiList x86                                    10.1.18362.1     Unknown  {5C3F08FC-E0D4-6C94-90EF-72DE63DDA885}        Microsoft Corporation           2020-08-17
+    Windows App Certification Kit x64                                                     10.1.18362.1     Unknown  {15E06EC7-2755-BD07-45AD-98DF1679A6BE}        Microsoft Corporation           2020-08-17
+    Windows Desktop Extension SDK Contracts                                               10.1.18362.1     Unknown  {39EDCC7D-7B63-5D99-C053-C8CDF02DC5ED}        Microsoft Corporation           2020-08-17
+    Windows Desktop Extension SDK                                                         10.1.18362.1     Unknown  {B4A7994D-DBA1-8B4D-621A-03EE52CF838A}        Microsoft Corporation           2020-08-17
+    Windows IoT Extension SDK Contracts                                                   10.1.18362.1     Unknown  {3CEE8EB6-538E-DDA2-51A5-842ECE6CE1E8}        Microsoft Corporation           2020-08-17
+    Windows IoT Extension SDK                                                             10.1.18362.1     Unknown  {9DA29C3D-9E36-AC22-59C8-FFCF413DC068}        Microsoft Corporation           2020-08-17
+    Windows Mobile Extension SDK Contracts                                                10.1.18362.1     Unknown  {154EEEB2-18D9-4FD5-EDE1-6D0B318FAC53}        Microsoft Corporation           2020-08-17
+    Windows Mobile Extension SDK                                                          10.1.18362.1     Unknown  {30AD20A4-1FFF-2632-4555-EFAF9D8A32CD}        Microsoft Corporation           2020-08-17
+    Windows Phone SDK 8.0 Assemblies for Visual Studio 2019                                 16.0.30309     Unknown  {3AB953B6-A70B-36B5-BD50-FC3E4F671369}        Microsoft Corporation           2020-08-17
+    Windows SDK AddOn                                                                         10.1.0.0     Unknown  {E6F877A1-2F65-4BF0-87B6-A4071B7663D3}        Microsoft Corporation           2020-08-17
+    Windows SDK ARM Desktop Tools                                                         10.1.18362.1     Unknown  {20C00582-BD18-B599-CF98-61011567D747}        Microsoft Corporation           2020-08-17
+    Windows SDK Desktop Headers arm                                                       10.1.18362.1     Unknown  {3DC4086C-B365-3DE4-878B-659DEB72904E}        Microsoft Corporation           2020-08-17
+    Windows SDK Desktop Headers arm64                                                     10.1.18362.1     Unknown  {452ABC9E-731E-71B2-8824-C5B2595370AF}        Microsoft Corporation           2020-08-17
+    Windows SDK Desktop Headers x64                                                       10.1.18362.1     Unknown  {6A96DEED-D0D8-6DD0-21BD-7D8F60714854}        Microsoft Corporation           2020-08-17
+    Windows SDK Desktop Headers x86                                                       10.1.18362.1     Unknown  {86ADBBAE-77AE-FA26-7C17-802AE28AC316}        Microsoft Corporation           2020-08-17
+    Windows SDK Desktop Libs arm                                                          10.1.18362.1     Unknown  {995DDD4F-928C-4EBA-9702-E7CD3F6A7A9D}        Microsoft Corporation           2020-08-17
+    Windows SDK Desktop Libs arm64                                                        10.1.18362.1     Unknown  {166BCCDD-48C1-8103-A7E7-0F3DE471223D}        Microsoft Corporation           2020-08-17
+    Windows SDK Desktop Libs x64                                                          10.1.18362.1     Unknown  {54140689-B7DB-B9CF-537D-8FEB279410F9}        Microsoft Corporation           2020-08-17
+    Windows SDK Desktop Libs x86                                                          10.1.18362.1     Unknown  {238F56B7-7D14-F8EB-3F4D-8CFF18C19E2B}        Microsoft Corporation           2020-08-17
+    Windows SDK Desktop Tools arm64                                                       10.1.18362.1     Unknown  {2E6C6299-BF5F-379D-55F2-8FD3367F5918}        Microsoft Corporation           2020-08-17
+    Windows SDK Desktop Tools x64                                                         10.1.18362.1     Unknown  {795E8F11-37DE-611E-921E-7D70BE09BF7B}        Microsoft Corporation           2020-08-17
+    Windows SDK Desktop Tools x86                                                         10.1.18362.1     Unknown  {540ADDB0-7A37-9B99-3568-FD1EA33D3B38}        Microsoft Corporation           2020-08-17
+    Windows SDK DirectX x64 Remote                                                        10.1.18362.1     Unknown  {6E3528B9-92A6-A48A-AE84-890E0E5DE9BB}        Microsoft Corporation           2020-08-17
+    Windows SDK DirectX x86 Remote                                                        10.1.18362.1     Unknown  {52CE7A43-B499-5F4B-A525-AA8794D3580F}        Microsoft Corporation           2020-08-17
+    Windows SDK EULA                                                                      10.1.18362.1     Unknown  {5F56BF12-0818-B58A-5862-939784E12F8B}        Microsoft Corporations          2020-08-17
+    Windows SDK Facade Windows WinMD Versioned                                            10.1.18362.1     Unknown  {A5EF45C5-FA27-7E8F-1AE8-E3D39BAC779E}        Microsoft Corporation           2020-08-17
+    Windows SDK for Windows Store Apps Contracts                                          10.1.18362.1     Unknown  {C13D21F1-E9A3-FB93-18C4-B905FB47F122}        Microsoft Corporation           2020-08-17
+    Windows SDK for Windows Store Apps DirectX x86 Remote                                 10.1.18362.1     Unknown  {8F21D4CD-9CB4-2648-EECC-60147DE7B32D}        Microsoft Corporation           2020-08-17
+    Windows SDK for Windows Store Apps Headers                                            10.1.18362.1     Unknown  {65E9398F-77A0-8681-026C-8CF092A71F11}        Microsoft Corporation           2020-08-17
+    Windows SDK for Windows Store Apps Libs                                               10.1.18362.1     Unknown  {217E19C8-ACC0-C7ED-AB69-A30F3F96C625}        Microsoft Corporation           2020-08-17
+    Windows SDK for Windows Store Apps Metadata                                           10.1.18362.1     Unknown  {5FAF2ED2-CA24-0313-8CAF-C28DEE421200}        Microsoft Corporation           2020-08-17
+    Windows SDK for Windows Store Apps Tools                                              10.1.18362.1     Unknown  {A5174AE6-3704-EE0A-BEFF-21BC5275BA02}        Microsoft Corporation           2020-08-17
+    Windows SDK for Windows Store Apps                                                    10.1.18362.1     Unknown  {39692B57-0BA8-2197-8BC5-4108DFB8475A}        Microsoft Corporation           2020-08-17
+    Windows SDK for Windows Store Managed Apps Libs                                       10.1.18362.1     Unknown  {CEDD7BE6-97B5-9AE8-57C0-B390E0C4328F}        Microsoft Corporation           2020-08-17
+    Windows SDK Modern Non-Versioned Developer Tools                                      10.1.18362.1     Unknown  {DDAF4CFD-D635-8305-5157-9ECEA9F89678}        Microsoft Corporation           2020-08-17
+    Windows SDK Modern Versioned Developer Tools                                          10.1.18362.1     Unknown  {21514D7D-4124-E52E-8483-727380B855D7}        Microsoft Corporation           2020-08-17
+    Windows SDK Redistributables                                                          10.1.18362.1     Unknown  {34B51780-922E-5CBF-C16F-13F0A9502267}        Microsoft Corporation           2020-08-17
+    Windows SDK Signing Tools                                                             10.1.18362.1     Unknown  {4CA7ABF1-DB68-0F9E-5AD9-58550198D0AC}        Microsoft Corporation           2020-08-17
+    Windows SDK                                                                           10.1.18362.1     Unknown  {3A98BFB1-16A6-576B-FFC8-7FEF26B40DBA}        Microsoft Corporation           2020-08-17
+    Windows Simulator - ENU                                                                 16.0.28522     Unknown  {0D5009C8-F5AF-4A81-B4F8-F334A6358CCA}        Microsoft Corporation           2020-08-17
+    Windows Simulator                                                                       16.0.28522     Unknown  {E957D37E-05B8-4A46-965E-A27D1F666554}        Microsoft Corporation           2020-08-17
+    Windows Software Development Kit - Windows 10.0.18362.1                               10.1.18362.1     Unknown  {126dedf0-cc0e-4b48-9ece-806b0e437195}        Microsoft Corporation                     
+    Windows Team Extension SDK Contracts                                                  10.1.18362.1     Unknown  {5D60A4EF-6EDF-AAF4-F0F0-49FDD40176B8}        Microsoft Corporation           2020-08-17
+    Windows Team Extension SDK                                                            10.1.18362.1     Unknown  {6EEDDD9D-BF7B-8229-92B4-89DFCF7481ED}        Microsoft Corporation           2020-08-17
+    windows_toolscorepkg                                                                    16.7.30309     Unknown  {900BB9CD-9463-41C2-87A9-9CEED7BBCFCA}        Microsoft Corporation           2020-08-17
+    WinRAR 5.90 (64-разрядная)                                                                  5.90.0     Unknown  WinRAR archiver                               win.rar GmbH                              
+    WinRT Intellisense Desktop - en-us                                                    10.1.18362.1     Unknown  {E67F1F03-FB4A-3D61-8999-E6A4C4B26F34}        Microsoft Corporation           2020-08-17
+    WinRT Intellisense Desktop - Other Languages                                          10.1.18362.1     Unknown  {7EF010FF-7800-28BA-FF49-2D219EC7BA82}        Microsoft Corporation           2020-08-17
+    WinRT Intellisense IoT - en-us                                                        10.1.18362.1     Unknown  {36AE12FB-4349-6EAA-B6E4-5F4E06FA8AE8}        Microsoft Corporation           2020-08-17
+    WinRT Intellisense IoT - Other Languages                                              10.1.18362.1     Unknown  {6B03A6A4-643C-57CE-CA6F-4E19BF47497A}        Microsoft Corporation           2020-08-17
+    WinRT Intellisense Mobile - en-us                                                     10.1.18362.1     Unknown  {918A448F-59E8-FBF5-B087-D3F07160C7E0}        Microsoft Corporation           2020-08-17
+    WinRT Intellisense PPI - en-us                                                        10.1.18362.1     Unknown  {66483041-F590-EC46-4AF0-EE39C62FB680}        Microsoft Corporation           2020-08-17
+    WinRT Intellisense PPI - Other Languages                                              10.1.18362.1     Unknown  {9C61E6D2-C43E-6746-B519-6185558C4A24}        Microsoft Corporation           2020-08-17
+    WinRT Intellisense UAP - en-us                                                        10.1.18362.1     Unknown  {6B37CC5B-78DF-5050-2215-68479716A587}        Microsoft Corporation           2020-08-17
+    WinRT Intellisense UAP - Other Languages                                              10.1.18362.1     Unknown  {250D5341-0879-4016-399C-BBCD87B80E95}        Microsoft Corporation           2020-08-17
+    WPS DataRecovery Master                                                                                Unknown  WPS DataRecovery Master                                                                 
+    x264vfw - H.264/MPEG-4 AVC codec (remove only)                                                         Unknown  x264vfw                                                                                 
+    Xamarin Offline Packages                                                                   16.7.85     Unknown  {88C8EFE1-D5BE-40D2-92BC-5A057DD8359C}        Xamarin                         2020-08-17
+    Xamarin PCL Profiles v1.0.9                                                                1.0.9.0     Unknown  {5E6844AB-A867-419C-A376-B12B574AA5F7}        Xamarin                         2020-08-17
+    Xamarin Remoted iOS Simulator                                                             16.7.0.0     Unknown  {E07CBF6A-91C5-434C-8520-784D040A3907}        Xamarin                         2020-08-17
+    Xoreax IncrediBuild 9.4.4 (build 3042)                                                                 Unknown  XoreaxIncrediBuild                                                                      
+    Агент администрирования Kaspersky Security Center [Русский (Россия)]                   12.0.0.7734     Unknown  {ED1C2D7E-5C7A-48D8-A697-57D1C080ABA7}        "Лаборатория Касперского"       2020-07-08
+    Агент администрирования Kaspersky Security Center                                      12.0.0.7734     Unknown  InstallWIX_{ED1C2D7E-5C7A-48D8-A697-57D1C080ABA7}  "Лаборатория Касперского"                 
+    Накопительный пакет обновления Microsoft .NET Framework Intellisense для Visual Studio (Русский) [Русский (Россия)]         4.8.03761     Unknown  {5D3118F8-FEA1-407F-8C99-90ADF0F3E829}        Microsoft Corporation           2020-08-17
+    Пакет SDK для Microsoft .NET Framework 4.8 (Русский) [Русский (Россия)]                  4.8.03761     Unknown  {F12F7131-5C1E-40AC-AF52-07F7CE913AD9}        Microsoft Corporation           2020-08-17
+    Пакет нацеливания Microsoft .NET Framework 4.7.2 (Русский) [Русский (Россия)]            4.7.03062     Unknown  {F65EF800-1CB5-48D5-834A-021DF04ADC81}        Microsoft Corporation           2020-08-17
+    Пакет нацеливания Microsoft .NET Framework 4.8 (Русский) [Русский (Россия)]              4.8.03761     Unknown  {2FEA1E10-9252-40EA-8076-809B46F97425}        Microsoft Corporation           2020-08-17
+    Программное обеспечение Intel® Chipset Device                                      10.1.17809.8096     Unknown  {bd366c5e-00cd-46ed-b647-0b9874f32140}        Intel(R) Corporation                      
+
+
+--------[ Licenses ]----------------------------------------------------------------------------------------------------
+
+    Microsoft Internet Explorer 11.959.18362.0                              3NCHK-HDR3M-GQHCT-BW37B-XBT6R
+    Microsoft Windows 10 Pro                                                3NCHK-HDR3M-GQHCT-BW37B-XBT6R
+
+
+--------[ Windows Security ]--------------------------------------------------------------------------------------------
+
+    Operating System Properties:
+      OS Name                                           Microsoft Windows 10 Pro
+      OS Service Pack                                   -
+      Winlogon Shell                                    explorer.exe
+      User Account Control (UAC)                        Enabled
+      UAC Remote Restrictions                           Enabled
+      System Restore                                    Enabled
+      Windows Update Agent                              10.0.18362.1014 (WinBuild.160101.0800)
+
+    Data Execution Prevention (DEP, NX, EDB):
+      Supported by Operating System                     Yes
+      Supported by CPU                                  Yes
+      Active (To Protect Applications)                  Yes
+      Active (To Protect Drivers)                       Yes
+
+
+--------[ Windows Update ]----------------------------------------------------------------------------------------------
+
+    (Automatic Update)                                                                Unknown               
+    2020-02 Накопительное обновление .NET Framework 3.5 и 4.8 для Windows 10 Version 1909 для 64-разрядных систем (KB4537572)  Update                22.04.2020
+    2020-05 Накопительное обновление .NET Framework 3.5 и 4.8 для Windows 10 Version 1909 для 64-разрядных систем (KB4552931)  Update                08.07.2020
+    2020-07 Накопительное обновление .NET Framework 3.5 и 4.8 для Windows 10 Version 1909 для x64 систем (KB4565633)  Update                15.07.2020
+    9MW2LKJ0TPJF-Microsoft.NET.Native.Framework.2.2                                   Update                22.04.2020
+    9NBLGGH3FRZM-Microsoft.VCLibs.140.00                                              Update                22.04.2020
+    9PLFNLNT3G5G-AppUp.IntelGraphicsExperience                                        Update                22.04.2020
+    9PLL735RFDSM-Microsoft.NET.Native.Runtime.2.2                                     Update                22.04.2020
+    Intel - System - 4/11/2018 12:00:00 AM - 1815.12.0.2021                           Update                22.04.2020
+    INTEL - System - 7/18/1968 12:00:00 AM - 10.1.11.4                                Update                22.04.2020
+    Intel Corporation - Display - 26.20.100.7262                                      Update                22.04.2020
+    Realtek Semiconductor Corp. - MEDIA - 6/3/2016 12:00:00 AM - 6.0.1.7841           Update                22.04.2020
+    Накопительное обновление для Windows 10 Version 1909 для систем на базе процессоров x64, 2020 04 (KB4550945)  Update                22.04.2020
+    Накопительное обновление для Windows 10 Version 1909 для систем на базе процессоров x64, 2020 06 (KB4560960)  Update                08.07.2020
+    Накопительное обновление для Windows 10 Version 1909 для систем на базе процессоров x64, 2020 07 (KB4565483)  Update                15.07.2020
+    Обновление для Windows 10 Version 1909 для систем на базе процессоров x64 (KB4497165), 01.2020  Update                08.07.2020
+    Обновление механизма обнаружения угроз для Microsoft Defender Antivirus - KB2267602 (версия 1.319.1021.0)  Update                08.07.2020
+    Обновление механизма обнаружения угроз для Microsoft Defender Antivirus - KB2267602 (версия 1.319.1021.0)  Update                08.07.2020
+    Обновление механизма обнаружения угроз для Microsoft Defender Antivirus - KB2267602 (версия 1.319.1040.0)  Update                08.07.2020
+    Обновление механизма обнаружения угроз для Windows Defender Antivirus - KB2267602 (версия 1.313.2067.0)  Update                22.04.2020
+    Обновление механизма обнаружения угроз для Windows Defender Antivirus - KB2267602 (версия 1.313.2080.0)  Update                22.04.2020
+    Обновление механизма обнаружения угроз для Windows Defender Antivirus - KB2267602 (версия 1.313.2150.0)  Update                23.04.2020
+    Обновление платформы защиты от вредоносных программ Microsoft Defender Antivirus — KB4052623 (версия 4.18.2006.10)  Update                08.07.2020
+    Обновление платформы защиты от вредоносных программ Windows Defender Antivirus — KB4052623 (версия 4.18.2003.8)  Update                22.04.2020
+    Обновление системы безопасности для Adobe Flash Player for Windows 10 Version 1909 для систем на базе процессоров x64 (KB4561600), 06.2020  Update                08.07.2020
+    Средство удаления вредоносных программ для платформы x64: v5.82 (KB890830)        Update                08.07.2020
+    Средство удаления вредоносных программ для платформы x64: март 2020 г. (KB890830)  Update                22.04.2020
+
+
+--------[ Anti-Virus ]--------------------------------------------------------------------------------------------------
+
+    Windows Defender                                  4.18.2006.10                                08.07.2020         ?
+
+
+--------[ Firewall ]----------------------------------------------------------------------------------------------------
+
+    Windows Firewall                                  10.0.18362.1  Enabled
+
+
+--------[ Anti-Spyware ]------------------------------------------------------------------------------------------------
+
+    Microsoft Windows Defender                4.18.2006.10
+
+
+--------[ Database Software ]-------------------------------------------------------------------------------------------
+
+    Database Drivers:
+      Borland Database Engine                           -
+      Borland InterBase Client                          -
+      Easysoft ODBC-InterBase 6                         -
+      Easysoft ODBC-InterBase 7                         -
+      Firebird Client                                   -
+      Jet Engine                                        4.00.9801.24
+      MDAC                                              10.0.18362.900 (WinBuild.160101.0800)
+      ODBC                                              10.0.18362.693 (WinBuild.160101.0800)
+      MySQL Connector/ODBC                              -
+      Oracle Client                                     -
+      PsqlODBC                                          -
+      Sybase ASE ODBC                                   -
+
+    Database Servers:
+      Borland InterBase Server                          -
+      Firebird Server                                   -
+      Microsoft SQL Server                              -
+      Microsoft SQL Server Compact Edition              -
+      Microsoft SQL Server Express Edition              -
+      MySQL Server                                      -
+      Oracle Server                                     -
+      PostgreSQL Server                                 -
+      Sybase SQL Server                                 -
+
+
+--------[ ODBC Drivers ]------------------------------------------------------------------------------------------------
+
+    Driver da Microsoft para arquivos texto (*.txt; *.csv)      odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.,*.asc,*.csv,*.tab,*.txt,*.csv
+    Driver do Microsoft Access (*.mdb)                          odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.mdb
+    Driver do Microsoft dBase (*.dbf)                           odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.dbf,*.ndx,*.mdx
+    Driver do Microsoft Excel(*.xls)                            odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.xls
+    Driver do Microsoft Paradox (*.db )                         odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.db
+    Microsoft Access Driver (*.mdb)                             odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.mdb
+    Microsoft Access-Treiber (*.mdb)                            odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.mdb
+    Microsoft dBase Driver (*.dbf)                              odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.dbf,*.ndx,*.mdx
+    Microsoft dBase-Treiber (*.dbf)                             odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.dbf,*.ndx,*.mdx
+    Microsoft Excel Driver (*.xls)                              odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.xls
+    Microsoft Excel-Treiber (*.xls)                             odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.xls
+    Microsoft ODBC for Oracle                                   msorcl32.dll        10.0.18362.1 (WinBuild.160101.0800)  
+    Microsoft Paradox Driver (*.db )                            odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.db
+    Microsoft Paradox-Treiber (*.db )                           odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.db
+    Microsoft Text Driver (*.txt; *.csv)                        odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.,*.asc,*.csv,*.tab,*.txt,*.csv
+    Microsoft Text-Treiber (*.txt; *.csv)                       odbcjt32.dll        10.0.18362.1 (WinBuild.160101.0800)  *.,*.asc,*.csv,*.tab,*.txt,*.csv
+    SQL Server                                                  sqlsrv32.dll        10.0.18362.1 (WinBuild.160101.0800)  
+
+
+--------[ ODBC Data Sources ]-------------------------------------------------------------------------------------------
+
+    dBASE Files                   Microsoft Access dBASE Driver (*.dbf, *.ndx, *.mdx)         User         aceodbc.dll
+    Excel Files                   Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)      User         aceodbc.dll
+    MS Access Database            Microsoft Access Driver (*.mdb, *.accdb)                    User         aceodbc.dll
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+The names of actual companies and products mentioned herein may be the trademarks of their respective owners.
