@@ -50,6 +50,7 @@ namespace WindowsFormsApp1
                 try
                 {
                     Process.Start(processStartInfo);
+                    Application.Exit();
                 }
                 catch (Win32Exception)
                 {
@@ -117,17 +118,18 @@ namespace WindowsFormsApp1
             }
             else
             {
+                ManagementObjectSearcher searcher = new ManagementObjectSearcher(
+               "SELECT Manufacturer,Product, SerialNumber,Version FROM Win32_BaseBoard");
+                ManagementObjectCollection information = searcher.Get();
+                foreach (ManagementObject obj in information)
+                {
+                    // Retrieving the properties (columns)
+                    // Writing column name then its value
+                    foreach (PropertyData data in obj.Properties)
+                        MessageBox.Show(data.Name, Convert.ToString(data.Value));
+                    Console.ReadLine();
 
-                    string result;
-                    string req = "SELECT Name FROM Win32_MotherboardDevice";
-                    ManagementObjectSearcher searcher = new ManagementObjectSearcher(req);
-                    //MessageBox.Show(saveto);
-
-                    foreach (ManagementObject obj in searcher.Get())
-                    {
-                        result = obj["Name"].ToString().Trim();
-                        MessageBox.Show(result);
-                    }
+                }
             }
         }
 
@@ -165,6 +167,12 @@ namespace WindowsFormsApp1
             {
 
             }
+        }
+
+        private void metroButton4_Click(object sender, EventArgs e)
+        {
+            compType = "Моноблок";
+            metroLabel7.Text = "Вы выбрали : " + compType;
         }
     }
 }
