@@ -76,8 +76,6 @@ namespace WindowsFormsApp1
 
         private async Task startAida()
         {
-
-
             Process aidabin = new Process();
             ProcessStartInfo info = new ProcessStartInfo();
             info.FileName = "aida64.exe";
@@ -163,6 +161,9 @@ namespace WindowsFormsApp1
 
         private void metroComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+
+
+
             if(metroComboBox1.Text == "Parser")
             {
 
