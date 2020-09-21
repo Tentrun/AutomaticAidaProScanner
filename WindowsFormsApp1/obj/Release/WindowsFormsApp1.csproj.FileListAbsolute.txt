@@ -46,3 +46,4 @@ C:\Users\KononovAV\Source\Repos\Tentrun\ParserAidaPro\WindowsFormsApp1\obj\Relea
 C:\Users\KononovAV\Source\Repos\Tentrun\ParserAidaPro\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.CopyComplete
 C:\Users\KononovAV\Source\Repos\Tentrun\ParserAidaPro\WindowsFormsApp1\obj\Release\WindowsFormsApp1.exe
 C:\Users\KononovAV\Source\Repos\Tentrun\ParserAidaPro\WindowsFormsApp1\obj\Release\WindowsFormsApp1.pdb
+C:\Coding\ParserAidaPro\WindowsFormsApp1\bin\Release\LibreHardwareMonitorLib.pdb

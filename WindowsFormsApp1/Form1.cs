@@ -116,7 +116,64 @@ namespace WindowsFormsApp1
             }
             else
             {
-                ManagementObjectSearcher searcher = new ManagementObjectSearcher(
+                try 
+                {
+
+                    RegistryKey currentUser = Registry.LocalMachine;
+
+                    RegistryKey HW = currentUser.OpenSubKey("HARDWARE");
+
+                    RegistryKey DESK = HW.OpenSubKey("DESCRIPTION");
+
+                    RegistryKey SYS = DESK.OpenSubKey("SYSTEM");
+
+                    RegistryKey BIOS = SYS.OpenSubKey("BIOS");
+
+                    string modelNote = BIOS.GetValue("SystemProductName").ToString();
+                    string vendorNote = BIOS.GetValue("SystemManufacturer").ToString();
+                    string type = "Ноутбук";
+                    
+
+
+                    if (vendorNote == "System manufacturer")
+                    {
+                        vendorNote = BIOS.GetValue("BaseBoardManufacturer").ToString();
+                        modelNote = BIOS.GetValue("BaseBoardProduct").ToString();
+                        type = "Десктоп";
+                    }
+
+                    BIOS.Close();
+                    string cpu;
+
+                    RegistryKey CP = SYS.OpenSubKey("CentralProcessor");
+
+                    RegistryKey CPFolder = CP.OpenSubKey("0");
+
+ 
+
+
+                    cpu = CPFolder.GetValue("ProcessorNameString").ToString();
+
+                    CreateConfiguration.Create(type, vendorNote, modelNote, cpu);
+                    CPFolder.Close();
+                    CP.Close();
+                    BIOS.Close();
+                    SYS.Close();
+                    DESK.Close();
+                    HW.Close();
+                    currentUser.Close();
+                }
+                catch (Win32Exception)
+                {
+                    MessageBox.Show("Whooops...\n New exception, please contact to coder");
+                }
+
+
+
+
+                // Monitor.Monitoring();
+                
+              /*  ManagementObjectSearcher searcher = new ManagementObjectSearcher(
                "SELECT Manufacturer,Product, SerialNumber,Version FROM Win32_BaseBoard");
                 ManagementObjectCollection information = searcher.Get();
                 foreach (ManagementObject obj in information)
@@ -127,7 +184,7 @@ namespace WindowsFormsApp1
                         MessageBox.Show(data.Name, Convert.ToString(data.Value));
                     Console.ReadLine();
 
-                }
+                } */
             }
         }
 

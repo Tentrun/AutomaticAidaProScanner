@@ -12,7 +12,7 @@ namespace WindowsFormsApp1
     class Monitor
     {
 
-        public void Monitoring()
+       static public void Monitoring()
         {
 
             Computer computer = new Computer
@@ -29,14 +29,14 @@ namespace WindowsFormsApp1
 
             foreach (IHardware hardware in computer.Hardware)
             {
-                MessageBox.Show("Hardware: {0}", hardware.Name);
+                MessageBox.Show(hardware.Name, "result");
 
-                foreach (ISensor sensor in hardware.Sensors)
-                {
-                    MessageBox.Show(sensor.Name, Convert.ToString(sensor.Value));
-                }
-            }
+              //  foreach (ISensor sensor in hardware.Sensors)
+                //{
+                  //  MessageBox.Show(sensor.Name, Convert.ToString(sensor.Value));
+           //     }
         }
+    }
 
 
     }
