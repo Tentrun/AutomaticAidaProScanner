@@ -1,7 +1,656 @@
 Тип : Ноутбук
 Производитель : Dell Inc.
 Модель : Vostro 3490
+Операционная система : Windows 10 Enterprise
 Процессор : Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz
 Количество ОЗУ : 8GB
 Объем жесткого диска : 238GB
-Антивирусное ПО : Отсутствует
+Антивирусное ПО : Windows Defender
+
+--------------------------------
+Установленный софт
+--------------------------------
+
+
+Visual Studio Community 2019
+Версия : 16.7.30503.244
+
+
+Microsoft Azure Storage Emulator - v5.10
+Версия : 5.10.19227.2113
+
+
+Microsoft Help Viewer 2.3
+Версия : 2.3.30309
+
+
+ClickOnce Bootstrapper Package for Microsoft .NET Framework
+Версия : 4.8.04119
+
+
+Microsoft Workflow Debugger v1.0 for x86
+Версия : 16.0.28329
+
+
+Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501
+Версия : 12.0.30501.0
+
+
+Microsoft System CLR Types для SQL Server 2019 CTP2.2
+Версия : 15.0.1200.24
+
+
+icecap_collectionresourcesx64
+Версия : 16.7.30309
+
+
+Windows Simulator - ENU
+Версия : 16.0.28522
+
+
+Windows Software Development Kit - Windows 10.0.18362.1
+Версия : 10.1.18362.1
+
+
+Microsoft .NET CoreRuntime SDK
+Версия : 1.1.27004.0
+
+
+Microsoft ASP.NET Diagnostic Pack for Visual Studio
+Версия : 16.7.532.28833
+
+
+Universal CRT Extension SDK
+Версия : 10.1.18362.1
+
+
+Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005
+Версия : 12.0.21005
+
+
+Windows Mobile Extension SDK Contracts
+Версия : 10.1.18362.1
+
+
+Visual C++ Library CRT Appx Package
+Версия : 14.27.29110
+
+
+Windows App Certification Kit x64
+Версия : 10.1.18362.1
+
+
+Windows SDK Desktop Libs arm64
+Версия : 10.1.18362.1
+
+
+Microsoft .NET Framework 4.7.2 Targeting Pack
+Версия : 4.7.03062
+
+
+vs_vswebprotocolselectormsi
+Версия : 16.7.30309
+
+
+Microsoft .NET Framework 4.5.2 Multi-Targeting Pack
+Версия : 4.5.51651
+
+
+Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.27.29016
+Версия : 14.27.29016.0
+
+
+Windows SDK ARM Desktop Tools
+Версия : 10.1.18362.1
+
+
+Windows SDK Modern Versioned Developer Tools
+Версия : 10.1.18362.1
+
+
+Windows SDK for Windows Store Apps Libs
+Версия : 10.1.18362.1
+
+
+Языковой пакет для окна справки (Майкрософт) 2.3 — RUS
+Версия : 2.3.30309
+
+
+Windows SDK Desktop Libs x86
+Версия : 10.1.18362.1
+
+
+Microsoft Exchange Web Services Managed API 2.1
+Версия : 15.0.847.30
+
+
+WinRT Intellisense UAP - Other Languages
+Версия : 10.1.18362.1
+
+
+sptools_Microsoft.VisualStudio.OfficeDeveloperTools.Msi
+Версия : 16.0.29931
+
+
+vs_clickoncebootstrappermsires
+Версия : 16.0.28329
+
+
+vs_minshellinteropmsi
+Версия : 16.2.28917
+
+
+Microsoft .NET Framework 4.6 Targeting Pack
+Версия : 4.6.00081
+
+
+Windows SDK Desktop Tools arm64
+Версия : 10.1.18362.1
+
+
+vs_helpconfigmsi
+Версия : 16.7.30309
+
+
+Пакет нацеливания Microsoft .NET Framework 4.8 (Русский)
+Версия : 4.8.03761
+
+
+Windows Mobile Extension SDK
+Версия : 10.1.18362.1
+
+
+Microsoft Help Viewer 2.3
+Версия : 2.3.30309
+
+
+vs_clickoncesigntoolmsi
+Версия : 16.0.28329
+
+
+Windows SDK Redistributables
+Версия : 10.1.18362.1
+
+
+WinRT Intellisense IoT - en-us
+Версия : 10.1.18362.1
+
+
+Windows SDK for Windows Store Apps
+Версия : 10.1.18362.1
+
+
+Windows Desktop Extension SDK Contracts
+Версия : 10.1.18362.1
+
+
+vs_filehandler_x86
+Версия : 16.7.30309
+
+
+Windows SDK
+Версия : 10.1.18362.1
+
+
+Windows Phone SDK 8.0 Assemblies for Visual Studio 2019
+Версия : 16.0.30309
+
+
+Visual C++ Library CRT Appx Package
+Версия : 14.27.29110
+
+
+Windows IoT Extension SDK Contracts
+Версия : 10.1.18362.1
+
+
+Visual C++ Library CRT Desktop Appx Package
+Версия : 14.27.29110
+
+
+Windows SDK Desktop Headers arm
+Версия : 10.1.18362.1
+
+
+Open XML SDK 2.5 for Microsoft Office
+Версия : 2.5.5631
+
+
+Visual C++ Library CRT Appx Resource Package
+Версия : 14.27.29110
+
+
+Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.27.29016
+Версия : 14.27.29016.0
+
+
+Microsoft Azure Storage Emulator - v5.10
+Версия : 5.10.19227.2113
+
+
+Microsoft .NET Core Runtime - 3.1.8 (x86)
+Версия : 24.96.29220
+
+
+Windows SDK Desktop Headers arm64
+Версия : 10.1.18362.1
+
+
+vs_vswebprotocolselectormsires
+Версия : 16.7.30309
+
+
+Microsoft .NET CoreRuntime For CoreCon
+Версия : 1.0.0.0
+
+
+Microsoft ASP.NET Web Tools Packages 16.0 - ENU
+Версия : 1.0.21125.0
+
+
+Windows SDK Signing Tools
+Версия : 10.1.18362.1
+
+
+Пакет SDK для Microsoft .NET Framework 4.7.2 (Русский)
+Версия : 4.7.03062
+
+
+Windows SDK DirectX x86 Remote
+Версия : 10.1.18362.1
+
+
+Windows SDK Desktop Tools x86
+Версия : 10.1.18362.1
+
+
+Windows SDK Desktop Libs x64
+Версия : 10.1.18362.1
+
+
+sptools_Microsoft.VisualStudio.Vsto.Msi.Resources
+Версия : 16.0.28030
+
+
+Microsoft .NET Framework 4.7.1 Targeting Pack
+Версия : 4.7.02558
+
+
+Microsoft .NET Framework 4.5 Multi-Targeting Pack
+Версия : 4.5.50710
+
+
+Windows App Certification Kit SupportedApiList x86
+Версия : 10.1.18362.1
+
+
+Microsoft Visual C++ 2019 X86 Additional Runtime - 14.27.29016
+Версия : 14.27.29016
+
+
+Накопительный пакет обновления Microsoft .NET Framework Intellisense для Visual Studio (Русский)
+Версия : 4.8.03761
+
+
+Windows Team Extension SDK Contracts
+Версия : 10.1.18362.1
+
+
+Xamarin PCL Profiles v1.0.9
+Версия : 1.0.9.0
+
+
+Windows SDK EULA
+Версия : 10.1.18362.1
+
+
+Windows SDK for Windows Store Apps Metadata
+Версия : 10.1.18362.1
+
+
+Microsoft UniversalWindowsPlatform SDK
+Версия : 15.9.12
+
+
+Kits Configuration Installer
+Версия : 10.1.18362.1
+
+
+Windows SDK for Windows Store Apps Headers
+Версия : 10.1.18362.1
+
+
+WinRT Intellisense PPI - en-us
+Версия : 10.1.18362.1
+
+
+SDK ARM Redistributables
+Версия : 10.1.18362.1
+
+
+Microsoft .NET Framework 4.5.1 Multi-Targeting Pack
+Версия : 4.5.50932
+
+
+Windows SDK Desktop Headers x64
+Версия : 10.1.18362.1
+
+
+WinRT Intellisense IoT - Other Languages
+Версия : 10.1.18362.1
+
+
+WinRT Intellisense UAP - en-us
+Версия : 10.1.18362.1
+
+
+Windows Team Extension SDK
+Версия : 10.1.18362.1
+
+
+Universal General MIDI DLS Extension SDK
+Версия : 10.1.18362.1
+
+
+SDK ARM Additions
+Версия : 10.1.18362.1
+
+
+Microsoft NetStandard SDK
+Версия : 15.0.51105
+
+
+Universal CRT Headers Libraries and Sources
+Версия : 10.1.18362.1
+
+
+vs_minshellmsi
+Версия : 16.7.30310
+
+
+Windows SDK Desktop Tools x64
+Версия : 10.1.18362.1
+
+
+Entity Framework 6.2.0 Tools  for Visual Studio 2019
+Версия : 6.2.0.0
+
+
+IntelliTraceProfilerProxy
+Версия : 15.0.18198.01
+
+
+WinRT Intellisense Desktop - Other Languages
+Версия : 10.1.18362.1
+
+
+vs_filehandler_amd64
+Версия : 16.7.30309
+
+
+Visual C++ Library CRT Desktop Appx Package
+Версия : 14.27.29110
+
+
+vcpp_crt.redist.clickonce
+Версия : 14.27.29016
+
+
+Universal CRT Redistributable
+Версия : 10.1.18362.1
+
+
+Windows SDK Desktop Headers x86
+Версия : 10.1.18362.1
+
+
+Xamarin Offline Packages
+Версия : 16.7.85
+
+
+Microsoft .NET Framework 4.6.1 Targeting Pack
+Версия : 4.6.01055
+
+
+WinAppDeploy
+Версия : 10.1.18362.1
+
+
+Windows SDK for Windows Store Apps DirectX x86 Remote
+Версия : 10.1.18362.1
+
+
+windows_toolscorepkg
+Версия : 16.7.30309
+
+
+WinRT Intellisense Mobile - en-us
+Версия : 10.1.18362.1
+
+
+vs_SQLClickOnceBootstrappermsi
+Версия : 16.7.30309
+
+
+Microsoft .NET Framework 4.8 SDK
+Версия : 4.8.03928
+
+
+Visual C++ Library CRT Desktop Appx Package
+Версия : 14.27.29110
+
+
+Windows SDK Desktop Libs arm
+Версия : 10.1.18362.1
+
+
+WinRT Intellisense PPI - Other Languages
+Версия : 10.1.18362.1
+
+
+vs_minshellmsires
+Версия : 16.0.28329
+
+
+Windows IoT Extension SDK
+Версия : 10.1.18362.1
+
+
+Universal CRT Tools x86
+Версия : 10.1.18362.1
+
+
+Microsoft TestPlatform SDK Local Feed
+Версия : 16.6.0.4
+
+
+Windows SDK for Windows Store Apps Tools
+Версия : 10.1.18362.1
+
+
+Windows SDK Facade Windows WinMD Versioned
+Версия : 10.1.18362.1
+
+
+TypeScript SDK
+Версия : 3.9.6.0
+
+
+VS Immersive Activate Helper
+Версия : 16.0.102.0
+
+
+Microsoft ASP.NET Web Tools Packages 16.0 - RUS
+Версия : 1.0.21125.0
+
+
+vs_devenvmsi
+Версия : 16.0.28329
+
+
+Windows Desktop Extension SDK
+Версия : 10.1.18362.1
+
+
+vs_BlendMsi
+Версия : 16.0.28329
+
+
+Microsoft .NET Framework 4.7.1 SDK
+Версия : 4.7.02558
+
+
+Microsoft .NET Framework 4.7.1 Doc Redirected Targeting Pack (ENU) (русский)
+Версия : 4.7.02558
+
+
+Microsoft .NET Framework 4.8 Targeting Pack
+Версия : 4.8.03761
+
+
+vs_clickoncebootstrappermsi
+Версия : 16.0.28329
+
+
+Windows SDK for Windows Store Apps Contracts
+Версия : 10.1.18362.1
+
+
+Microsoft .NET Core Host FX Resolver - 3.1.8 (x86)
+Версия : 24.96.29220
+
+
+Microsoft Visual Studio Setup Configuration
+Версия : 2.7.3111.17308
+
+
+vs_communitymsi
+Версия : 16.7.30310
+
+
+Пакет SDK для Microsoft .NET Framework 4.7 (Русский)
+Версия : 4.7.02046
+
+
+Windows SDK for Windows Store Managed Apps Libs
+Версия : 10.1.18362.1
+
+
+Microsoft .NET Framework 4 Multi-Targeting Pack
+Версия : 4.0.30319
+
+
+Update for  (KB2504637)
+Версия : 1
+
+
+Microsoft Windows Desktop Runtime - 3.1.8 (x86)
+Версия : 24.96.29220
+
+
+sptools_Microsoft.VisualStudio.Vsto.Msi.x64
+Версия : 16.0.28030
+
+
+MSI Development Tools
+Версия : 10.1.18362.1
+
+
+icecap_collectionresources
+Версия : 16.7.30310
+
+
+Visual C++ Library CRT ARM64 Appx Package
+Версия : 14.27.29110
+
+
+Windows SDK Modern Non-Versioned Developer Tools
+Версия : 10.1.18362.1
+
+
+Xamarin Remoted iOS Simulator
+Версия : 16.7.0.0
+
+
+vs_tipsmsi
+Версия : 16.0.28329
+
+
+Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.27.29016
+Версия : 14.27.29016
+
+
+vs_communitymsires
+Версия : 16.0.28329
+
+
+Microsoft Visual Studio Setup WMI Provider
+Версия : 2.7.3111.17308
+
+
+WinRT Intellisense Desktop - en-us
+Версия : 10.1.18362.1
+
+
+Windows SDK AddOn
+Версия : 10.1.0.0
+
+
+Windows Simulator
+Версия : 16.0.28522
+
+
+Пакет SDK для Microsoft .NET Framework 4.7.1 (Русский)
+Версия : 4.7.02558
+
+
+icecap_collection_neutral
+Версия : 16.7.30310
+
+
+Microsoft .NET Native SDK
+Версия : 15.0.24211.07
+
+
+vs_FileTracker_Singleton
+Версия : 16.7.30309
+
+
+Пакет SDK для Microsoft .NET Framework 4.8 (Русский)
+Версия : 4.8.03761
+
+
+Microsoft .NET Framework 4.7.2 SDK
+Версия : 4.7.03081
+
+
+Microsoft .NET Framework 4.7 SDK
+Версия : 4.7.02046
+
+
+Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501
+Версия : 12.0.30501.0
+
+
+Пакет нацеливания Microsoft .NET Framework 4.7.2 (Русский)
+Версия : 4.7.03062
+
+
+sptools_Microsoft.VisualStudio.Vsto.Msi
+Версия : 16.0.28030
+
+
+Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005
+Версия : 12.0.21005
+
+
+Microsoft ASP.NET Core 3.1.8 Shared Framework (x86)
+Версия : 3.1.8.0
+
+
+Microsoft Windows Communication Foundation Diagnostic Pack for x86
+Версия : 16.0.28329
+
+
+Языковой пакет для окна справки (Майкрософт) 2.3 — RUS
+Версия : 2.3.30309

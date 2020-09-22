@@ -132,7 +132,6 @@ namespace WindowsFormsApp1
                     string modelNote = BIOS.GetValue("SystemProductName").ToString();
                     string vendorNote = BIOS.GetValue("SystemManufacturer").ToString();
                     string type = "Ноутбук";
-                    
 
 
                     if (vendorNote == "System manufacturer")
@@ -143,7 +142,10 @@ namespace WindowsFormsApp1
                     }
 
                     BIOS.Close();
+
                     string cpu;
+                    string os;
+
 
                     RegistryKey CP = SYS.OpenSubKey("CentralProcessor");
 
@@ -154,14 +156,28 @@ namespace WindowsFormsApp1
 
                     cpu = CPFolder.GetValue("ProcessorNameString").ToString();
 
-                    CreateConfiguration.Create(type, vendorNote, modelNote, cpu);
                     CPFolder.Close();
                     CP.Close();
                     BIOS.Close();
                     SYS.Close();
                     DESK.Close();
                     HW.Close();
+
+                    RegistryKey SOFTWARE = currentUser.OpenSubKey("SOFTWARE");
+                    RegistryKey Mic = SOFTWARE.OpenSubKey("Microsoft");
+                    RegistryKey WinReg = Mic.OpenSubKey("Windows NT");
+                    RegistryKey CurrVer = WinReg.OpenSubKey("CurrentVersion");
+
+                    os = CurrVer.GetValue("ProductName").ToString();
+
+                    CurrVer.Close();
+                    WinReg.Close();
+                    Mic.Close();
+                    SOFTWARE.Close();
+
+
                     currentUser.Close();
+                    CreateConfiguration.Create(type, vendorNote, modelNote, cpu, os);
                 }
                 catch (Win32Exception)
                 {
@@ -171,20 +187,21 @@ namespace WindowsFormsApp1
 
 
 
-                // Monitor.Monitoring();
-                
-              /*  ManagementObjectSearcher searcher = new ManagementObjectSearcher(
-               "SELECT Manufacturer,Product, SerialNumber,Version FROM Win32_BaseBoard");
-                ManagementObjectCollection information = searcher.Get();
-                foreach (ManagementObject obj in information)
-                {
-                    // Retrieving the properties (columns)
-                    // Writing column name then its value
-                    foreach (PropertyData data in obj.Properties)
-                        MessageBox.Show(data.Name, Convert.ToString(data.Value));
-                    Console.ReadLine();
 
-                } */
+                // Monitor.Monitoring();
+
+                /*  ManagementObjectSearcher searcher = new ManagementObjectSearcher(
+                 "SELECT Manufacturer,Product, SerialNumber,Version FROM Win32_BaseBoard");
+                  ManagementObjectCollection information = searcher.Get();
+                  foreach (ManagementObject obj in information)
+                  {
+                      // Retrieving the properties (columns)
+                      // Writing column name then its value
+                      foreach (PropertyData data in obj.Properties)
+                          MessageBox.Show(data.Name, Convert.ToString(data.Value));
+                      Console.ReadLine();
+
+                  } */
             }
         }
 
