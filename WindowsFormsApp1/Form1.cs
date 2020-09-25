@@ -14,11 +14,15 @@ using System.Management;
 using Microsoft.Win32;
 using System.Runtime.InteropServices;
 using MetroFramework.Properties;
+using System.IO;
+using AuditProgrammICTO.Properties;
 
 namespace WindowsFormsApp1
 {
     public partial class Form1 : MetroFramework.Forms.MetroForm
     {
+
+        const string settingsFileName = "settings.txt";
 
         string compType = null;
         string saveto = null;
@@ -31,17 +35,34 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            metroProgressSpinner1.Value = 0;
-            metroProgressSpinner1.Spinning = false;
+            if(File.Exists(settingsFileName))
+            {
+                _PathFolder = File.ReadAllText(settingsFileName);
+                metroTextBox1.Text = _PathFolder;
+            }
 
-            bool isElevated;
+            metroTextBox1.WaterMark = "Папка сохранения файла";
+            metroLabel1.Visible = false;
+            metroLabel3.Visible = false;
+            metroLabel4.Visible = false;
+
+            kabinet.Visible = false;
+            textBox1.Visible = false;
+            textBox2.Visible = false;
+            metroButton1.Visible = false;
+            metroButton2.Visible = false;
+            metroButton3.Visible = false;
+            metroButton4.Visible = false;
+
+
+           /* bool isElevated;
             WindowsIdentity identity = WindowsIdentity.GetCurrent();
             WindowsPrincipal principal = new WindowsPrincipal(identity);
-            isElevated = principal.IsInRole(WindowsBuiltInRole.Administrator);
+            isElevated = principal.IsInRole(WindowsBuiltInRole.Administrator); */
 
             
 
-            if(!isElevated)
+           /* if(!isElevated)
             {
 
                 ProcessStartInfo processStartInfo = new ProcessStartInfo();
@@ -61,11 +82,14 @@ namespace WindowsFormsApp1
             else
             {
 
-            }
+            } */
 
 
 
         }
+
+        static public string _PathFolder { get; set; }
+
 
         private void generateSaveto()
         {
@@ -88,6 +112,7 @@ namespace WindowsFormsApp1
             aidabin.WaitForExit(); //После закрытия приложения можно топать дальше.
             closeApp();
         }
+
         private void closeApp()
         {
             Application.Exit();
@@ -95,22 +120,8 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (!metroCheckBox1.Checked)
+            if (metroCheckBox1.Checked)
             {
-
-                kabinet.Enabled = false;
-                textBox1.Enabled = false;
-                textBox2.Enabled = false;
-                metroButton1.Enabled = false;
-                metroButton2.Enabled = false;
-                metroButton3.Enabled = false;
-                button2.Enabled = false;
-                metroCheckBox1.Enabled = false;
-
-                metroProgressSpinner1.Value = 3;
-                metroProgressSpinner1.Spinning = true;
-
-
                 generateSaveto();
                 startAida();
             }
@@ -118,6 +129,11 @@ namespace WindowsFormsApp1
             {
                 try 
                 {
+
+                    FileStream fileStream = File.Open(settingsFileName, FileMode.Create);
+                    StreamWriter output = new StreamWriter(fileStream);
+                    output.Write(metroTextBox1.Text); // запись в файл по параметрам в скобках
+                    output.Close(); // закрытие файла
 
                     RegistryKey currentUser = Registry.LocalMachine;
 
@@ -225,7 +241,35 @@ namespace WindowsFormsApp1
 
         private void metroCheckBox1_CheckedChanged(object sender, EventArgs e)
         {
+            if (metroCheckBox1.Checked == true)
+            {
 
+
+                metroLabel1.Visible = true;
+                metroLabel3.Visible = true;
+                metroLabel4.Visible = true;
+                kabinet.Visible = true;
+                textBox1.Visible = true;
+                textBox2.Visible = true;
+                metroButton1.Visible = true;
+                metroButton2.Visible = true;
+                metroButton3.Visible = true;
+                metroButton4.Visible = true;
+            }
+            else
+            {
+
+                metroLabel1.Visible = false;
+                metroLabel3.Visible = false;
+                metroLabel4.Visible = false;
+                kabinet.Visible = false;
+                textBox1.Visible = false;
+                textBox2.Visible = false;
+                metroButton1.Visible = false;
+                metroButton2.Visible = false;
+                metroButton3.Visible = false;
+                metroButton4.Visible = false;
+            }
         }
 
         private void metroProgressSpinner1_Click(object sender, EventArgs e)
@@ -233,21 +277,34 @@ namespace WindowsFormsApp1
 
         }
 
-        private void metroComboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-
-
-            if(metroComboBox1.Text == "Parser")
-            {
-
-            }
-        }
 
         private void metroButton4_Click(object sender, EventArgs e)
         {
             compType = "Моноблок";
             metroLabel7.Text = "Вы выбрали : " + compType;
+        }
+
+        private void metroLabel5_Click(object sender, EventArgs e)
+        {
+            Process.Start("www.github.com/tentrun");
+        }
+
+        private void metroButton5_Click(object sender, EventArgs e)
+        { 
+            FolderBrowserDialog folderBrowser = new FolderBrowserDialog();
+            folderBrowser.ShowDialog();
+            Form1._PathFolder = folderBrowser.SelectedPath + @"\";
+            metroTextBox1.Text = _PathFolder;
+        }
+
+        private void metroTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            _PathFolder = metroTextBox1.Text;
+        }
+
+        private void metroTextBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

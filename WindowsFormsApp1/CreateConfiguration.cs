@@ -14,6 +14,8 @@ namespace WindowsFormsApp1
 {
     class CreateConfiguration
     {
+
+
        /* static public string Test()
         {
                 return "suck";
@@ -81,6 +83,9 @@ namespace WindowsFormsApp1
             #endregion
 
 
+
+
+
             //string _test = Test();
 
             //MessageBox.Show(_test);
@@ -89,7 +94,15 @@ namespace WindowsFormsApp1
 
             #region FileSettings
 
-            string fileName = type + " " + vendor + " " + model + ".txt";
+
+            string fileName = Form1._PathFolder + type + " " + vendor + " " + model + ".txt";
+            string _fileNameFolder = fileName.Trim(' '); //трим нейма для проверки пути
+            if(File.Exists(_fileNameFolder)) //проверка на сущетвование
+            {
+                FileStream _fileStream = new FileStream(fileName, FileMode.Create);
+                fileName = fileName + "(dublicate).txt";                
+            }
+
             FileStream fileStream = new FileStream(fileName, FileMode.Create);
             StreamWriter streamWriter = new StreamWriter(fileStream);
             fileStream.Seek(0, SeekOrigin.End);
@@ -102,7 +115,32 @@ namespace WindowsFormsApp1
             streamWriter.WriteLine("Операционная система : " + os);
             streamWriter.WriteLine("Процессор : " + cpu);
             streamWriter.WriteLine("Количество ОЗУ : " + Convert.ToString(Math.Round(gbMemory)) + "GB");
-            streamWriter.WriteLine("Объем жесткого диска : " + Convert.ToString(Math.Round(gbDrive)) + "GB");
+            #endregion
+
+
+            #region DriveExportNew
+
+            streamWriter.WriteLine("Информация о жестких дисках : ");
+
+            foreach (var drv in DriveInfo.GetDrives())
+            {
+                try
+                {
+                    const long GB32 = 34359738368; //32gb size in bytes
+                    if (drv.TotalSize > GB32)
+                    {
+                        string diskInfo;
+                        diskInfo = "Имя диска : " + drv.Name + "\n" + "Размер : " + (((drv.TotalSize / 1024) / 1024) / 1024) + " GB \n";
+                        streamWriter.WriteLine(diskInfo);
+                    } //write if disk size > 32gb
+                }
+
+                catch 
+                { 
+                
+                }
+
+            }
             #endregion
 
 
@@ -162,6 +200,7 @@ namespace WindowsFormsApp1
 
             streamWriter.Close();
 
+            Application.Exit();
         }
 
     }

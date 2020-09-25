@@ -4,7 +4,10 @@
 Операционная система : Windows 10 Enterprise
 Процессор : Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz
 Количество ОЗУ : 8GB
-Объем жесткого диска : 238GB
+Информация о жестких дисках : 
+Имя диска : C:\
+Размер : 237 GB 
+
 Антивирусное ПО : Windows Defender
 
 --------------------------------
@@ -22,6 +25,14 @@ Microsoft Azure Storage Emulator - v5.10
 
 Microsoft Help Viewer 2.3
 Версия : 2.3.30309
+
+
+Npcap
+Версия : 0.9994
+
+
+Wireshark 3.2.6 64-bit
+Версия : 3.2.6
 
 
 ClickOnce Bootstrapper Package for Microsoft .NET Framework
